@@ -1,29 +1,35 @@
-.section {}
+/**
+  |============================
+  | HERO
+  |============================
+*/
 
-.hero-section {}
-
-.container {}
-
-.hero-container {}
-
-.hero-title {
-    color: var(--light);
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: -1.62px;
+.hero-section {
+  padding-top: 64px;
 }
 
+.hero-container {
+}
 
+.hero-title {
+  max-width: 332px;
+  margin-bottom: 14px;
+}
 
-.hero-text {}
+.hero-text {
+}
 
-.hero-list {}
+.hero-list {
+}
 
-.hero-item {}
+.hero-item {
+}
 
-.hero-button {}
+.hero-button {
+}
 
-.hero-anchor {}
+.hero-anchor {
+}
 
-.hero-owner {}
+.hero-owner {
+}
