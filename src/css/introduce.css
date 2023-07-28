@@ -1,0 +1,5 @@
+div-untroduce {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-blue, #11131f);
+}
