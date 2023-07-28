@@ -1,5 +1,44 @@
-div-untroduce {
+body {
+  background-color: var(--dark-blue, #11131f);
+}
+p {
+  font-family: DM Sans;
+  font-style: normal;
+  color: var(--white, #f6f5ef);
+}
+img {
+  overflow: hidden;
+}
+.div-introduce {
   display: flex;
   flex-direction: column;
-  background-color: var(--dark-blue, #11131f);
+  padding: 1.25rem;
+}
+.text-adventure {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  margin-bottom: 40px;
+}
+.yacht-span {
+  color: #a1b5ba;
+  font-style: italic;
+}
+.two-texts {
+  display: inline-flex;
+  gap: 0.88rem;
+  margin-bottom: 40px;
+}
+.text-text {
+  color: var(--white, #f6f5ef);
+  font-size: 0.88rem;
+  line-height: 140%;
+  letter-spacing: -0.28px;
+  width: calc((100%-00.88rem) / 2);
+}
+.yacht-1 {
+  min-width: 270px;
+  height: auto;
+i
 }
