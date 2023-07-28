@@ -4,10 +4,15 @@
   |============================
 */
 
+<<<<<<< Updated upstream
 .section {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: var(--dark-blue);
+=======
+.hero-section {
+    background-color: black;
+>>>>>>> Stashed changes
 }
 
 @media only screen and (min-width: 768px) {
@@ -48,6 +53,7 @@
     letter-spacing: -1.62px;
 }
 
+<<<<<<< Updated upstream
 @media only screen and (min-width: 768px) {
     .section-title {
         font-size: 60px;
@@ -94,6 +100,15 @@
 
 
 
+=======
+.text-accent {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: var(----green-gradient);
+    font-style: italic;
+    font-weight: 500;
+}
+>>>>>>> Stashed changes
 
 .hero-text {}
 
