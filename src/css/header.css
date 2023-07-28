@@ -1,1 +1,24 @@
+.header-container
+{display: flex;
+}
 
+.header-logo
+{display: flex;
+gap: 8px;
+
+padding: 28px 0;
+
+background: var(--dark-blue, #11131F);
+
+color: var(--white, #F6F5EF);
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 114%; /* 15.96px */
+letter-spacing: 0.42px;
+text-transform: uppercase;}
+
+.navigation-list
+{display: flex;
+gap: 24px;}
