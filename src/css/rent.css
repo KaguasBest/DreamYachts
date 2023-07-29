@@ -17,9 +17,7 @@
 
  .rent-title {
    color: var(--light, #f6f5ef);
-   font-family: DM Sans;
    font-size: 36px;
-   font-style: normal;
    font-weight: 500;
    line-height: 1.1;
    letter-spacing: -1.62px;
@@ -84,9 +82,7 @@
 
  .rent-label-user {
    color: var(--light, #f6f5ef);
-   font-family: DM Sans;
    font-size: 14px;
-   font-style: normal;
    font-weight: 500;
    line-height: 1.2;
    letter-spacing: -0.63px;
@@ -145,9 +141,7 @@
    color: var(--light, #f6f5ef);
    background: transparent;
    outline: none;
-   font-family: DM Sans;
    font-size: 14px;
-   font-style: normal;
    font-weight: 700;
    line-height: 1.1;
    letter-spacing: -0.63px;
@@ -227,9 +221,7 @@
  .modal-title {
    width: 100%;
    color: var(--light, #f6f5ef);
-   font-family: DM Sans;
    font-size: 24px;
-   font-style: normal;
    font-weight: 500;
    line-height: 1.2;
    letter-spacing: -1.08px;
@@ -247,9 +239,7 @@
  .modal-txt {
    width: 100%;
    color: var(--light, #f6f5ef);
-   font-family: DM Sans;
    font-size: 14px;
-   font-style: normal;
    font-weight: 400;
    line-height: 1.4;
    letter-spacing: -0.28px;
