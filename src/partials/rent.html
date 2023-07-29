@@ -1,0 +1,47 @@
+<section class="section-rent">
+  <div class="container">
+    <h2>Rent a yacht now</h2>
+
+    <img src="/src/img/rent/yacht-desktop.jpg" alt="yacht" width="282" height="191" />
+  </div>
+  <!-- form -->
+  <div class="rent-container-form">
+    <form>
+      <label class="rent-label-name" for="user-name">Full Name</label>
+      <input class="rent-user-name" type="text" name="user-name" id="user-name">
+
+      <label class="rent-label-mail" for="user-mail">Email</label>
+      <input class="rent-user-mail" type="email" name="user-mail" id="user-mail">
+
+      <label class="rent-label-tel" for="user-tel">Phone number</label>
+      <input class="rent-user-tel" type="tel" name="user-tel" id="user-tel">
+
+      <label class="rent-label-comment" for="user-comment">Comment</label>
+      <input class="rent-user-comment" type="text" name="user-comment" id="user-comment">
+    </form>
+
+    <button class="rent-btn" type="submit">Send<svg class="rent-icon-btn-send" width="18" height="9">
+        <use href="/src/img/icons.svg#icon-right"></use>
+      </svg>
+    </button>
+
+  </div>
+</section>
+
+
+
+
+
+<!-- modal window -->
+<div class="container-rent-modal is-hidden" data-modal>
+  <button class="rent-modal-btn" type="button" data-modal-close><svg class="rent-icon-modal-close" width="12"
+      height="12">
+      <use href="/src/img/icons.svg#icon-x"></use>
+    </svg>
+  </button>
+  <img src="/src/img/rent/yacht-pop-up-desktop.png" alt="yacht" width="338" height="198">
+  <h3>Thank you</h3>
+  <p>Thank you for choosing Yacht Adventures, your booking details have been received and our team will be in touch
+    shortly
+    to confirm your reservation and provide any additional information or assistance you may need.</p>
+</div>
