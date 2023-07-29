@@ -211,14 +211,17 @@
    }
  }
 
- .rent-icon-modal-close {
+ .rent-modal-btn {
    position: absolute;
    top: 14px;
    right: 14px;
+   border: none;
+   background: transparent;
+   outline: none;
  }
 
  @media only screen and (min-width: 768px) {
-   .rent-icon-modal-close {
+   .rent-modal-btn {
      top: 32px;
      right: 32px;
    }
