@@ -1,7 +1,4 @@
- .section-rent {
-   outline: 2px solid red;
- }
-
+ .section-rent {}
 
  @media only screen and (min-width: 768px) {
    .section-rent {
@@ -178,7 +175,6 @@
   |============================
 */
  .container-rent-modal {
-   outline: 2px solid red;
    position: relative;
    width: 100%;
    height: 100%;
@@ -192,7 +188,6 @@
  }
 
  .rent-modal {
-   outline: 2px solid red;
    padding: 40px 24px;
    position: absolute;
    top: 50%;
@@ -231,7 +226,6 @@
 
  .modal-title {
    width: 100%;
-   /* width: 282px; */
    color: var(--light, #f6f5ef);
    font-family: DM Sans;
    font-size: 24px;
@@ -252,7 +246,6 @@
 
  .modal-txt {
    width: 100%;
-   /* width: 287px; */
    color: var(--light, #f6f5ef);
    font-family: DM Sans;
    font-size: 14px;
