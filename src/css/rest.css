@@ -1,8 +1,9 @@
-.hero-section{
-    display: none;
-}
+
 .rest-section{
     min-width: 320px;
+    background-image: url(../img/services/ellipse.png);
+    background-repeat: no-repeat;
+    background-position: top 50% left -286px;
 }
 
 .rest-list{
@@ -16,7 +17,6 @@
 
 .rest-item{
     margin-bottom: 24px;
-    background: rgba(17, 19, 31, 0.20);
         box-sizing: border-box;
             margin-right: auto;
             margin-left: auto;
@@ -41,9 +41,16 @@
         letter-spacing: -0.63px;
 
 }
+/**
+  |============================
+  | Tablet
+  |============================
+*/
 @media only screen and (min-width:768px){
 .rest-section{
     min-width: 768px;
+    background-image: url(../img/services/ellipse-tab-desc.png);
+        background-position:top 50% left -305px;
 }
 
 .rest-list{
@@ -60,11 +67,19 @@ margin-bottom: 32px;
  .sunbathing-item{
     margin-left: 64px;
  }
+ .rest-button{
+    font-size: 18px;
+ }
 }
-
+/**
+  |============================
+  | Desctop
+  |============================
+*/
 @media only screen and (min-width:1280px){
 .rest-section {
         min-width: 1280px;
+        background-position: top 30% left -299px;
     }
         .rest-list {
             flex-direction: row;
