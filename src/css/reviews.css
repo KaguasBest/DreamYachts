@@ -1,0 +1,106 @@
+/* .reviews-block {
+} */
+.reviews-titel {
+    color: var(--light);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -1.08px;
+    margin-bottom: 24px;
+    max-width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    .reviews-titel{
+        max-width: 500px;
+        font-size: 32px;
+        margin-bottom: 32px;
+        margin-right: auto;
+  }
+}
+.reviews-text {
+    color: var(--light);
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    .reviews-text{
+        max-width: 273px;
+        font-size: 16px;
+        margin-left: auto;
+        margin-bottom: 64px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+    .reviews-titel{
+        display: inline-block;
+        margin-bottom: 68px;
+  }
+    .reviews-text{
+        display: inline-block;
+        margin-left: auto;
+  }
+}
+.reviews-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .reviews-list {
+    gap: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .reviews-list {
+    gap: 32px;
+  }
+}
+.reviews-item {
+    width: 100%;
+    border-radius: 24px;
+    background: var(--alt-blue);
+    padding: 24px;
+}
+@media only screen and (min-width: 768px) {
+    .reviews-item{
+        width: calc((100%-16px)/2);
+        padding: 24px 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+    .reviews-item{
+        width: calc((100%-2*32px)/3);
+        padding: 32px;
+  }
+}
+@media only screen and (max-width: 767px) {
+   .response-box-2{
+    display: none;
+  }
+  .response-box-3{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1279px) {
+   .response-box-3{
+     display: none;
+   }
+ }
+.reviews-foto {
+}
+.reviews-name {
+    color: var(--light);
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.72px;
+    margin-bottom: 8px;
+}
+.reviews-response {
+    color: rgba(246, 245, 239, 0.50);
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+}
