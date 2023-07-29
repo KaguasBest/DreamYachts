@@ -1,54 +1,87 @@
 .hero-section{
     display: none;
 }
-.rest-section {
+.rest-section{
     min-width: 320px;
-    /* padding-right: 20px;
-    padding-left: 20px; */
-
 }
 
-/* .rest-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-} */
+.rest-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
 
-.rest-item {
-    border-radius: 40px;
+.rest-item{
     margin-bottom: 24px;
     background: rgba(17, 19, 31, 0.20);
+        box-sizing: border-box;
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+}
+.rest-item:last-child{
+    margin-bottom: 0;
 }
 
 .rest-button {
     padding: 14px 28px;
     border-radius: 60px;
-    background: #F6F5EF;
+    background: var(--light);
     border: none;
     position: absolute;
-    left: 24px;
     bottom: 24px;
-
-}
-
-.rest-button-link {
+    margin-left: 24px;
     color: var(--dark-blue);
-    /* color: #11131F; */
     font-size: 14px;
-    font-weight: 700;
-    line-height: 110%;
-    letter-spacing: -0.63px;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: -0.63px;
+
+}
+@media only screen and (min-width:768px){
+.rest-section{
+    min-width: 768px;
 }
 
-.rest-list:last-child {
-    margin-bottom: 0;
+.rest-list{
+width: 100%;
 }
 
-.item-img {
-    width: 100%;
-    /* border-radius: 40px; */
+.rest-item{
+margin-bottom: 32px;
+}
+ .fishing-item{
+    margin-left: 336px;
+ }
+
+ .sunbathing-item{
+    margin-left: 64px;
+ }
 }
 
-.container-item {
-    position: relative;
+@media only screen and (min-width:1280px){
+.rest-section {
+        min-width: 1280px;
+    }
+        .rest-list {
+            flex-direction: row;
+            align-items:baseline;
+            flex-wrap: wrap;
+        }
+.diving-item{
+    margin-left: 0;
+    margin-right: 64px;
+    margin-bottom: 64px;
+}
+.fishing-item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 64px;
+}
+.sunbathing-item{
+    margin-left: 372px;
+}
 }
