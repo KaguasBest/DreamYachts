@@ -56,7 +56,8 @@
   padding: 35px 0;
 }
 
-.header-nav-link:hover {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: var(--accent);
 }
 

@@ -144,7 +144,8 @@
   transition: color var(--anim), border-color var(--anim);
 }
 
-.rent-btn:hover {
+.rent-btn:hover,
+.rent-btn:focus {
   color: var(--accent);
   border-color: var(--accent);
 }

@@ -72,7 +72,8 @@
   text-transform: uppercase;
 }
 
-.footer-menu-item:hover {
+.footer-menu-item:hover,
+.footer-menu-item:focus {
   color: var(--accent);
 }
 
@@ -119,12 +120,14 @@
   transition: fill var(--anim);
 }
 
-.footer-social-item:hover {
-  border-color: var(--green-gradient);
+.footer-social-item:hover,
+.footer-social-item:focus {
+  border-color: var(--accent);
 }
 
-.footer-social-item:hover + .footer-social-icon {
-  fill: var(--green-gradient);
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  fill: var(--accent);
 }
 
 .footer-bottom-container {
