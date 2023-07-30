@@ -82,7 +82,6 @@
 
 @media only screen and (max-width: 1279px) {
   .reviews-list {
-    display: none;
   }
 }
 
@@ -91,10 +90,15 @@
     display: none;
   }
 }
+
+.reviews-list {
+  display: none;
+}
+
 @media only screen and (min-width: 1280px) {
   .reviews-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 32px;
     margin-bottom: 64px;

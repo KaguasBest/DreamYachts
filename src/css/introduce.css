@@ -38,10 +38,15 @@
     letter-spacing: -1.44px;
   }
 }
+
+.introduce-div-adventure {
+  margin-bottom: 32px;
+}
+
 @media only screen and (min-width: 768px) {
   .introduce-div-adventure {
     display: flex;
-    margin: 0 auto 2rem 2rem;
+    margin: 0 auto 2rem 0;
   }
 }
 .introduce-yacht-span {
@@ -105,7 +110,6 @@
 @media only screen and (min-width: 768px) {
   .introduce-yacht-2 {
     display: flex;
-    margin-left: 2rem;
     margin-right: auto;
   }
 }
