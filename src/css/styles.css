@@ -8,6 +8,7 @@
 @import url('./fonts.css');
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./introduce.css');
 @import url('./yacht.css');
 @import url('./rest.css');
 @import url('./rent.css');
@@ -19,6 +20,7 @@
   font-size: 16px;
   line-height: 1.4;
   font-weight: 400;
+  background-color: var(--dark-blue);
 
   --dark-blue: #11131f;
 
