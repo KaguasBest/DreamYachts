@@ -21,6 +21,7 @@
   line-height: 1.4;
   font-weight: 400;
   background-color: var(--dark-blue);
+  color: var(--light);
 
   --dark-blue: #11131f;
 
