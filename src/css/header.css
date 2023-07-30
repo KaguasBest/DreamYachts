@@ -1,1 +1,177 @@
+.header-container
+{display: flex;
+  
+    background-color: var(--dark-blue);
+    max-width: 375px;
+    /* outline: 1px solid tomato; */
+}
+.header-container::after {
+    content: "";
+   display: block;
+width: 375px;
+height: 1px;  
+background-color: rgba(246, 245, 239, 0.20); 
+position: absolute;
+top: 75px;
 
+}
+      
+
+.header-logo
+{display: flex;
+    align-items: center;
+gap: 8px;
+
+padding: 28px 0;
+color: var(--light);
+
+font-size: 14px;
+font-weight: 700;
+line-height: 114%; /* 15.96px */
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+
+
+.header-navigation
+{padding-top: 35px;
+  padding-bottom: 35px;
+margin-left: auto;}
+
+.header-nav-list
+{display: flex;
+  align-items: center;
+  justify-content: center;
+gap: 24px;
+}
+
+.header-nav-link
+{   color: var(--light);
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-size: 14px;
+font-weight: 700;
+line-height: 118%;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+
+padding: 35px 0;
+}
+
+/* ---------------- Mobile Menu ---------------- */
+.header-burger-btn {
+    height: 24px;
+    width: 24px;
+    margin-left: auto;
+    
+    padding: 24px 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    
+    outline: none; 
+}
+@media (min-width: 768px) {
+    .header-burger-btn {
+      display: none;
+    }
+  }
+
+  
+   
+  .menu-toggle:hover,
+  .menu-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  } 
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  background-color: var(--dark-blue);
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+
+  background-image: linear-gradient(to left bottom, 
+  rgba(4, 4, 43, 0.5),
+  
+  rgba(145, 175, 186, 0.15),
+  rgba(155, 163, 177, 0.15));
+  }
+  
+  .menu-container.is-open {
+    transform: translateX(0);
+  }
+
+  .mobile-menu-container
+  {display: flex;
+  align-items: center;
+}
+  .mobile-menu-container::after
+  {    content: "";
+    display: block;
+ width: 375px;
+ height: 1px;  
+ background-color: rgba(246, 245, 239, 0.20); 
+ position: absolute;
+ top: 75px;
+ }
+
+  .mobile-close-btn {
+ width: 40px;
+ height: 40px;
+  background-color: transparent;
+border: none;
+position: absolute;
+top: 35px;
+right: 35px;
+  
+    color: var(--light);
+  }
+   
+  
+  .mobile-menu {
+    padding: 200px 160px;
+    
+    list-style: none;
+  }
+  
+  .mobile-menu .link {
+    display: block;
+    padding: 14px;
+
+    color: var(--light);
+    text-decoration: none;
+    font-size: 14px;
+font-weight: 700;
+line-height: 118%; 
+letter-spacing: 0.42px;
+text-transform: uppercase;
+  }
+
+ 
+@media only screen and (max-width: 767px)
+{.header-navigation
+{display: none;}}
+
+@media screen and (min-width: 768px) 
+{   .header-logo
+  {padding: 33px 0;
+    font-size: 18px;
+    line-height: 118%; 
+    letter-spacing: 0.54px;}
+    .header-container::after
+  {width: 768px;
+  top: 87px;} }
+
+  @media screen and (min-width: 1280px) 
+  {  .header-container::after
+    {width: 1280px;
+    top: 89px;} 
+
+  }
