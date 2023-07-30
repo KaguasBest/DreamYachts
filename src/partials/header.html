@@ -1,1 +1,62 @@
-<header class="header"></header>
+<header class="header">
+  <div class="container header-container">
+    <a class="header-logo" href="./index.html">
+      <img class="logo-img" src="./img/header/yaht-icon.svg" alt="logo" />Yacht
+      Adventures
+    </a>
+    <nav class="header-navigation">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="" rel="noopener noreferrer">About</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="" rel="noopener noreferrer"
+            >Yachts</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="" rel="noopener noreferrer"
+            >Reviews</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- ===== Burger button ===== -->
+    <button
+      class="header-burger-btn js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="header-mobile-menu">
+        <use
+          href="./img/icons.svg#icon-burger-menu"
+          width="24"
+          height="24"
+        ></use>
+      </svg>
+    </button>
+  </div>
+  <!-- ======== Mobile MENU ========= -->
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <div class="mobile-menu-container">
+      <a class="header-logo" href="./index.html">
+        <img
+          class="logo-img"
+          src="./img/header/yaht-icon.svg"
+          alt="logo"
+        />Yacht Adventures
+      </a>
+      <button class="mobile-close-btn js-close-menu">
+        <svg class="mobile-menu-icon-x">
+          <use href="./img/icons.svg#icon-x" width="24" height="24"></use>
+        </svg>
+      </button>
+    </div>
+
+    <ul class="mobile-menu">
+      <li><a href="" class="link">About</a></li>
+      <li><a href="" class="link">Yachts</a></li>
+      <li><a href="" class="link">Reviews</a></li>
+    </ul>
+  </div>
+</header>

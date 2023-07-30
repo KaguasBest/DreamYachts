@@ -5,7 +5,7 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./fonts.css');
+/* @import url('./fonts.css'); */
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./introduce.css');
@@ -59,6 +59,10 @@
   |============================
 */
 
+main {
+  color: var(--light);
+}
+
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -106,6 +110,7 @@
 @media only screen and (min-width: 768px) {
   .section-title {
     font-size: 60px;
+    letter-spacing: -2.7px;
   }
 }
 
@@ -129,3 +134,4 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
