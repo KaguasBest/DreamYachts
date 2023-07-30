@@ -141,6 +141,12 @@
   line-height: 1.1;
   letter-spacing: -0.63px;
   padding: 14px 28px;
+  transition: color var(--anim), border-color var(--anim);
+}
+
+.rent-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
 }
 
 @media only screen and (min-width: 768px) {

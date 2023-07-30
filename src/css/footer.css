@@ -72,6 +72,10 @@
   text-transform: uppercase;
 }
 
+.footer-menu-item:hover {
+  color: var(--accent);
+}
+
 .footer-social {
   margin-bottom: 40px;
   display: inline-flex;
@@ -105,12 +109,22 @@
   padding: 9px;
   border-radius: 6px;
   border: 1px solid rgba(246, 245, 239, 0.5);
+  transition: border-color var(--anim);
 }
 
 .footer-social-icon {
   height: 24px;
   width: 24px;
   fill: var(--light);
+  transition: fill var(--anim);
+}
+
+.footer-social-item:hover {
+  border-color: var(--green-gradient);
+}
+
+.footer-social-item:hover + .footer-social-icon {
+  fill: var(--green-gradient);
 }
 
 .footer-bottom-container {

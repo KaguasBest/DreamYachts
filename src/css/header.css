@@ -51,8 +51,13 @@
   line-height: 118%;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  transition: color var(--anim);
 
   padding: 35px 0;
+}
+
+.header-nav-link:hover {
+  color: var(--accent);
 }
 
 /* ---------------- Mobile Menu ---------------- */
