@@ -6,22 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dream Yacht</title>
     
-    <script type="module" crossorigin src="/DreamYachts/assets/index-c7541e63.js"></script>
-    <link rel="stylesheet" href="/DreamYachts/assets/index-ede995a1.css">
+    <script type="module" crossorigin src="/DreamYachts/assets/index-891d7233.js"></script>
+    <link rel="stylesheet" href="/DreamYachts/assets/index-6a1184da.css">
   </head>
   <body>
     <!-- |============================ Dima_Scherbina - Header section ============================ -->
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/DreamYachts/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dream Yacht</title>
-  
-</head>
-<body>
-  <!-- |============================ Dima_Scherbina - Header section ============================ -->
 
-  <header class="header"></header>
+  <header class="header">
+    <div class="container header-container">
+        <a class="header-logo" href="./index.html">
+            <img class="logo-img" src="../img/header/yaht-icon.svg" 
+            alt="logo">Yacht Adventures
+        </a> 
+              <nav class="header-navigation">
+        <ul class="header-nav-list">
+            <li class="header-nav-item">
+                <a class="header-nav-link" href="" 
+                rel="noopener noreferrer">About</a>
+            </li>
+            <li class="header-nav-item">
+                <a class="header-nav-link" href="" 
+                rel="noopener noreferrer">Yachts</a>
+            </li>
+            <li class="header-nav-item">
+                <a class="header-nav-link" href="" 
+                rel="noopener noreferrer">Reviews</a>
+            </li>
+        </ul>
+    </nav> 
+      <!-- ===== Burger button ===== -->
+      <button
+      class="header-burger-btn js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu">
+     <svg class="header-mobile-menu">
+      <use href="/DreamYachts/assets/icons-2e5ecff5.svg#icon-burger-menu" 
+      width="24"
+      height="24">
+  </use>
+     </svg>
+    </button>             
+    </div>
+    <!-- ======== Mobile MENU ========= -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+       <div class="mobile-menu-container">
+        <a class="header-logo" href="./index.html">
+            <img class="logo-img" src="../img/header/yaht-icon.svg" 
+            alt="logo">Yacht Adventures
+        </a> 
+        <button class="mobile-close-btn js-close-menu">
+            <svg class="mobile-menu-icon-x">
+                <use href="/DreamYachts/assets/icons-2e5ecff5.svg#icon-x" 
+                width="24"
+                height="24">
+            </use>
+          </svg>
+        </button>
+       </div>
+  
+        <ul class="mobile-menu">
+          <li><a href="" class="link">About</a></li>
+          <li><a href="" class="link">Yachts</a></li>
+          <li><a href="" class="link">Reviews</a></li>
+       
+        </ul>
+      </div>
+</header>
 
 
   <!-- End Header section -->
@@ -403,8 +453,15 @@
 
   <!-- End Footer section -->
 
-  
-  <script src="./js/modal.js"></script>
-</body>
-
+    
+    <!--  ========= Mobile Menu ========= -->
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="./js/mobile-menu.js"></script>
+  </body>
 </html>
+
