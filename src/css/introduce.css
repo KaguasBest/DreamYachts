@@ -1,0 +1,116 @@
+.introduce img {
+  margin-bottom: 1.5rem;
+}
+.introduce-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+  min-width: 320px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .introduce-div {
+    padding: 2rem;
+    width: 768px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .introduce-div {
+    flex-direction: row;
+    align-items: first baseline;
+    width: 1280px;
+    flex-wrap: wrap;
+  }
+}
+.introduce-text-adventure {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -1.08px;
+  margin-bottom: 2.5rem;
+  max-width: 21rem;
+}
+@media only screen and (min-width: 768px) {
+  .introduce-text-adventure {
+    max-width: 25.9rem;
+    font-size: 2rem;
+    letter-spacing: -1.44px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .introduce-div-adventure {
+    display: flex;
+    margin: 0 auto 2rem 2rem;
+  }
+}
+.introduce-yacht-span {
+  color: #a1b5ba;
+  font-style: italic;
+}
+.introduce-two-texts {
+  display: inline-flex;
+  gap: 0.88rem;
+  margin-bottom: 2.5rem;
+}
+@media only screen and (min-width: 768px) {
+  .introduce-two-texts {
+    display: flex;
+    margin-right: 2rem;
+    margin-left: auto;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    max-width: 25rem;
+  }
+}
+.introduce-text-text {
+  font-size: 0.88rem;
+  line-height: 1.4;
+  letter-spacing: -0.28px;
+  max-width: 10rem;
+}
+@media only screen and (min-width: 768px) {
+  .introduce-text-text {
+    max-width: 9.69rem;
+    font-size: 1rem;
+    letter-spacing: -0.32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .introduce-yacht-1 {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: -1rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .introduce-yacht-2 {
+    display: flex;
+    margin-left: 2rem;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .introduce-yacht-2 {
+    margin-right: 57.8rem;
+    margin-top: -17rem;
+  }
+}
+.introduce-yacht-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (min-width: 768px) {
+  .introduce-yacht-3 {
+    margin-left: 22rem;
+    margin-top: -7rem;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .introduce-yacht-3 {
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: 22.25rem;
+  }
+}

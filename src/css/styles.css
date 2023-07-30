@@ -5,9 +5,10 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./fonts.css');
+/* @import url('./fonts.css'); */
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./introduce.css');
 @import url('./yacht.css');
 @import url('./rest.css');
 @import url('./rent.css');
@@ -19,6 +20,7 @@
   font-size: 16px;
   line-height: 1.4;
   font-weight: 400;
+  background-color: var(--dark-blue);
 
   --dark-blue: #11131f;
 
@@ -56,6 +58,10 @@
   | Common style
   |============================
 */
+
+main {
+  color: var(--light);
+}
 
 .section {
   padding-top: 40px;
@@ -104,6 +110,7 @@
 @media only screen and (min-width: 768px) {
   .section-title {
     font-size: 60px;
+    letter-spacing: -2.7px;
   }
 }
 
