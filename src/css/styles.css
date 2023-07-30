@@ -60,6 +60,10 @@
   |============================
 */
 
+main {
+  color: var(--light);
+}
+
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -107,6 +111,7 @@
 @media only screen and (min-width: 768px) {
   .section-title {
     font-size: 60px;
+    letter-spacing: -2.7px;
   }
 }
 
