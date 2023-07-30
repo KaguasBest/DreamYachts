@@ -44,19 +44,12 @@
    }
  }
 
- /**
-  |============================
-  |           form
-  |============================
-
-*/
- .container {
+ .rent-container {
    display: flex;
-
  }
 
  @media only screen and (max-width: 768px) {
-   .container {
+   .rent-container {
      flex-wrap: wrap;
    }
  }
@@ -186,7 +179,7 @@
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -100%);
+   transform: translate(-50%, -50%);
    border-radius: 20px;
    background: var(--dark-blue);
    width: 335px;
