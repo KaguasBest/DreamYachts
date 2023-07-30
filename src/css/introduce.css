@@ -1,15 +1,4 @@
-body {
-  background-color: var(--dark-blue, #11131f);
-}
-p {
-  font-family: DM Sans;
-  font-style: normal;
-  color: var(--white, #f6f5ef);
-}
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
+.introduce img {
   margin-bottom: 1.5rem;
 }
 .introduce-div {
