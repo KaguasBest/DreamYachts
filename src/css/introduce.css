@@ -1,4 +1,4 @@
-.introduce-picture {
+.introduce img {
   margin-bottom: 1.5rem;
 }
 .introduce-div {
@@ -92,7 +92,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .introduce-yacht-2 {
-    margin-right: 58.8rem;
+    margin-right: 57.8rem;
     margin-top: -17rem;
   }
 }
@@ -111,6 +111,6 @@
   .introduce-yacht-3 {
     margin-top: 0;
     margin-right: auto;
-    margin-left: 23.25rem;
+    margin-left: 22.25rem;
   }
 }
