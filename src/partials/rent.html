@@ -1,28 +1,86 @@
-<section class="section-rent section ">
-  <div class="container  rent-container">
+<section class="section-rent section">
+  <div class="container rent-container">
     <div class="rent-container-title">
       <h2 class="rent-title">Rent a yacht now</h2>
+      <picture class="hero-client-img">
+        <source
+          srcset="
+            ./img/rent/yacht-mobile.png    1x,
+            ./img/rent/yacht-mobile@2x.png 2x
+          "
+          media="(max-width:767px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./img/rent/yacht-mobile.webp    1x,
+            ./img/rent/yacht-mobile@2x.webp 2x
+          "
+          media="(max-width:767px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            ./img/rent/yacht-desktop.png    1x,
+            ./img/rent/yacht-desktop@2x.png 2x
+          "
+          media="(min-width:768px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./img/rent/yacht-desktop.webp    1x,
+            ./img/rent/yacht-desktop@2x.webp 2x
+          "
+          media="(min-width:768px)"
+          type="image/webp"
+        />
 
-      <img src="../img/rent/yacht-mobile.png" alt="yacht" width="260" height="187" />
+        <img
+          src="./img/rent/yacht-mobile.png"
+          alt="yacht"
+          width="260"
+          height="187"
+        />
+      </picture>
     </div>
     <!-- form -->
     <div class="rent-container-form">
       <form class="rent-form">
         <label class="rent-label-user" for="user-name">Full Name</label>
-        <input class="rent-user-name  input-user" type="text" name="user-name" id="user-name">
+        <input
+          class="rent-user-name input-user"
+          type="text"
+          name="user-name"
+          id="user-name"
+        />
 
         <label class="rent-label-user" for="user-mail">Email</label>
-        <input class="rent-user-mail  input-user" type="email" name="user-mail" id="user-mail">
+        <input
+          class="rent-user-mail input-user"
+          type="email"
+          name="user-mail"
+          id="user-mail"
+        />
 
         <label class="rent-label-user" for="user-tel">Phone number</label>
-        <input class="rent-user-tel  input-user" type="tel" name="user-tel" id="user-tel">
+        <input
+          class="rent-user-tel input-user"
+          type="tel"
+          name="user-tel"
+          id="user-tel"
+        />
 
         <label class="rent-label-user" for="user-comment">Comment</label>
-        <textarea class="form-coment-text input-user" name="user-comment" id="user-comment" rows="2"></textarea>
+        <textarea
+          class="form-coment-text input-user"
+          name="user-comment"
+          id="user-comment"
+          rows="2"
+        ></textarea>
 
-
-        <button class="rent-btn" type="submit" data-modal-open>Send<svg class="rent-icon-btn-send" width="18"
-            height="9">
+        <button class="rent-btn" type="submit" data-modal-open>
+          Send<svg class="rent-icon-btn-send" width="18" height="9">
             <use href="../img/icons.svg#icon-right"></use>
           </svg>
         </button>
@@ -34,16 +92,22 @@
 <!-- modal window -->
 <div class="container-rent-modal is-hidden" data-modal>
   <div class="rent-modal">
-    <button class="rent-modal-btn" type="button" data-modal-close><svg class="rent-icon-modal-close" width="20"
-        height="20">
+    <button class="rent-modal-btn" type="button" data-modal-close>
+      <svg class="rent-icon-modal-close" width="20" height="20">
         <use href="../img/icons.svg#icon-x"></use>
       </svg>
     </button>
-    <img src="../img/rent/yacht-pop-up-mobile.png" alt="yacht" width="287" height="149">
-    <h3 class="modal-title ">Thank you</h3>
-    <p class="modal-txt">Thank you for choosing Yacht Adventures, your booking details have been received and our team
-      will be in touch
-      shortly
-      to confirm your reservation and provide any additional information or assistance you may need.</p>
+    <img
+      src="../img/rent/yacht-pop-up-mobile.png"
+      alt="yacht"
+      width="287"
+      height="149"
+    />
+    <h3 class="modal-title">Thank you</h3>
+    <p class="modal-txt">
+      Thank you for choosing Yacht Adventures, your booking details have been
+      received and our team will be in touch shortly to confirm your reservation
+      and provide any additional information or assistance you may need.
+    </p>
   </div>
 </div>
