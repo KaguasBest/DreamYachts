@@ -6,23 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dream Yacht</title>
     
-    <script type="module" crossorigin src="/DreamYachts/assets/index-59c16172.js"></script>
-    <link rel="stylesheet" href="/DreamYachts/assets/index-10ef7d51.css">
+    <script type="module" crossorigin src="/DreamYachts/assets/index-3e9bc45e.js"></script>
+    <link rel="stylesheet" href="/DreamYachts/assets/index-6e7dec03.css">
   </head>
   <body>
     <!-- |============================ Dima_Scherbina - Header section ============================ -->
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/DreamYachts/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dream Yacht</title>
+  
+</head>
+<body>
+  <!-- |============================ Dima_Scherbina - Header section ============================ -->
 
-    <header class="header"></header>
+  <header class="header"></header>
 
 
-    <!-- End Header section -->
+  <!-- End Header section -->
 
-    <!-- Main section -->
+  <!-- Main section -->
 
-    <main>
-      <!-- |============================ Anna Rychkova - Hero section ============================ -->
+  <main>
+    <!-- |============================ Anna Rychkova - Hero section ============================ -->
 
-      <section class="section hero-section">
+    <section class="section hero-section">
   <div class="container hero-container">
     <h1 class="section-title hero-title">
       Explore the High Seas with
@@ -45,12 +54,11 @@
   </div>
 </section>
 
+    <!-- End Hero section -->
 
-      <!-- End Hero section -->
+    <!-- |============================ Yuliia - Introduce section ============================ -->
 
-      <!-- |============================ Yuliia - Introduce section ============================ -->
-
-      <section class="introduce">
+    <section class="introduce">
   <div class="container introduce-div">
     <div class="introduce-div-adventure">
       <p class="introduce-text-adventure">
@@ -152,41 +160,91 @@
 </section>
 
 
-      <!-- End Introduce section -->
+    <!-- End Introduce section -->
 
-      <!-- |============================ Volodymyr Palonyi - Yacht section ============================ -->
-
-      
-
-      <!-- End Yacht section -->
-
-      <!-- |============================ Dmitro Mashkivskiy - Rest section ============================ -->
-
-      
-
-      <!-- End Rest section -->
-
-      <!-- |============================ Pasha Lavruk - Rent section ============================ -->
-
-      
-
-      <!-- End Rent section -->
-
-      <!-- |============================ Домантович Оксана - Reviews section ============================ -->
-
-      
-
-      <!-- End Reviews section -->
-    </main>
-
-    <!-- End Main section -->
-
-    <!-- |============================ Taras Semkiv - Footer section ============================ -->
+    <!-- |============================ Volodymyr Palonyi - Yacht section ============================ -->
 
     
 
-    <!-- End Footer section -->
+    <!-- End Yacht section -->
+
+    <!-- |============================ Dmitro Mashkivskiy - Rest section ============================ -->
 
     
-  </body>
+
+    <!-- End Rest section -->
+
+    <!-- |============================ Pasha Lavruk - Rent section ============================ -->
+
+    <section class="section-rent section ">
+  <div class="container  rent-container">
+    <div class="rent-container-title">
+      <h2 class="rent-title">Rent a yacht now</h2>
+
+      <img src="../img/rent/yacht-mobile.png" alt="yacht" width="260" height="187" />
+    </div>
+    <!-- form -->
+    <div class="rent-container-form">
+      <form class="rent-form">
+        <label class="rent-label-user" for="user-name">Full Name</label>
+        <input class="rent-user-name  input-user" type="text" name="user-name" id="user-name">
+
+        <label class="rent-label-user" for="user-mail">Email</label>
+        <input class="rent-user-mail  input-user" type="email" name="user-mail" id="user-mail">
+
+        <label class="rent-label-user" for="user-tel">Phone number</label>
+        <input class="rent-user-tel  input-user" type="tel" name="user-tel" id="user-tel">
+
+        <label class="rent-label-user" for="user-comment">Comment</label>
+        <textarea class="form-coment-text input-user" name="user-comment" id="user-comment" rows="2"></textarea>
+
+
+        <button class="rent-btn" type="submit" data-modal-open>Send<svg class="rent-icon-btn-send" width="18"
+            height="9">
+            <use href="../img/icons.svg#icon-right"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- modal window -->
+<div class="container-rent-modal is-hidden" data-modal>
+  <div class="rent-modal">
+    <button class="rent-modal-btn" type="button" data-modal-close><svg class="rent-icon-modal-close" width="20"
+        height="20">
+        <use href="../img/icons.svg#icon-x"></use>
+      </svg>
+    </button>
+    <img src="../img/rent/yacht-pop-up-mobile.png" alt="yacht" width="287" height="149">
+    <h3 class="modal-title ">Thank you</h3>
+    <p class="modal-txt">Thank you for choosing Yacht Adventures, your booking details have been received and our team
+      will be in touch
+      shortly
+      to confirm your reservation and provide any additional information or assistance you may need.</p>
+  </div>
+</div>
+
+    <!-- End Rent section -->
+
+    <!-- |============================ Домантович Оксана - Reviews section ============================ -->
+
+    
+
+    <!-- End Reviews section -->
+  </main>
+
+  <!-- End Main section -->
+
+  <!-- |============================ Taras Semkiv - Footer section ============================ -->
+
+  
+
+  <!-- End Footer section -->
+
+  
+  <script src="./js/modal.js"></script>
+</body>
+
 </html>
