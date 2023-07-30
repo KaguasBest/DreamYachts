@@ -1,11 +1,13 @@
 
 .rest-section{
     min-width: 320px;
-    background-image: url(../img/services/ellipse.png);
+    background-image: url(./img/services/ellipse.png);
     background-repeat: no-repeat;
     background-position: top 50% left -286px;
 }
-
+.rest-container{
+    padding: 0 !important;
+}
 .rest-list{
     display: flex;
     flex-direction: column;
@@ -37,7 +39,7 @@
     color: var(--dark-blue);
     font-size: 14px;
         font-weight: 700;
-        line-height: 110%;
+        line-height: 1.1;
         letter-spacing: -0.63px;
 
 }
@@ -49,7 +51,7 @@
 @media only screen and (min-width:768px){
 .rest-section{
     min-width: 768px;
-    background-image: url(../img/services/ellipse-tab-desc.png);
+    background-image: url(./img/services/ellipse-tab-desc.png);
         background-position:top 50% left -305px;
 }
 
@@ -73,7 +75,7 @@ margin-bottom: 32px;
 }
 /**
   |============================
-  | Desctop
+  | Desktop
   |============================
 */
 @media only screen and (min-width:1280px){
