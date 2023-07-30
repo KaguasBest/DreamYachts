@@ -76,6 +76,25 @@
     letter-spacing: -0.32px;
   }
 }
+
+.introduce-yacht-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .introduce-yacht-wrap {
+    gap: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .introduce-yacht-wrap {
+    gap: 0;
+  }
+}
+
 @media only screen and (min-width: 1280px) {
   .introduce-yacht-1 {
     display: flex;
@@ -93,7 +112,7 @@
 @media only screen and (min-width: 1280px) {
   .introduce-yacht-2 {
     margin-right: 57.8rem;
-    margin-top: -17rem;
+    margin-top: -17.5rem;
   }
 }
 .introduce-yacht-3 {
@@ -111,6 +130,6 @@
   .introduce-yacht-3 {
     margin-top: 0;
     margin-right: auto;
-    margin-left: 22.25rem;
+    margin-left: 22.75rem;
   }
 }
