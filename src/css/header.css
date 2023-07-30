@@ -12,7 +12,7 @@ width: 335px;
 height: 1px;  
 background-color: rgba(246, 245, 239, 0.20); 
 position: absolute;
-bottom: 30px;
+top: 75px;
 
 }
       
@@ -115,13 +115,12 @@ padding: 35px 0;
   .mobile-menu-container::after
   {    content: "";
     display: block;
- width: 100%;
+ width: 358px;
  height: 1px;  
  background-color: rgba(246, 245, 239, 0.20); 
  position: absolute;
  top: 75px;
- right: 15px;
- left: 15px;}
+ }
 
   .mobile-close-btn {
  width: 40px;
