@@ -164,4 +164,14 @@ text-transform: uppercase;
   {padding: 33px 0;
     font-size: 18px;
     line-height: 118%; 
-    letter-spacing: 0.54px;} }
+    letter-spacing: 0.54px;}
+    .header-container::after
+  {width: 704px;
+  top: 87px;} }
+
+  @media screen and (min-width: 1237px) 
+  {  .header-container::after
+    {width: 1216px;
+    top: 89px;} 
+
+  }
