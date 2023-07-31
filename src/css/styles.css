@@ -61,6 +61,7 @@
 
 main {
   color: var(--light);
+  overflow: hidden;
 }
 
 .section {
@@ -116,7 +117,7 @@ main {
 
 .text-accent {
   color: transparent;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   background-image: var(--green-gradient);
   font-style: italic;
   font-weight: 500;
@@ -134,4 +135,3 @@ main {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
