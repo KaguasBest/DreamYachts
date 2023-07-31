@@ -80,20 +80,24 @@
   }
 }
 
-@media only screen and (max-width: 1279px) {
-  .reviews-list {
+@media only screen and (min-width: 1279px) {
+  .swiper-slide {
+    width: auto;
+  }
+  .swiper-wrapper {
+    justify-content: space-between;
   }
 }
 
-@media only screen and (min-width: 1280px) {
+/* @media only screen and (min-width: 1280px) {
   .reviews-swiper {
     display: none;
   }
-}
+} */
 
-.reviews-list {
+/* .reviews-list {
   display: none;
-}
+} */
 
 @media only screen and (min-width: 1280px) {
   .reviews-list {

@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.footer-container::before {
+.footer > .container::before {
   content: '';
   display: block;
   width: 100%;
