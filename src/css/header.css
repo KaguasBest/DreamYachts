@@ -109,6 +109,11 @@ padding: 35px 0;
   width: 375px;
  
 }
+.header-mobile-menu
+{
+  width: 24px;
+  height: 24px;
+}
   .mobile-menu-container::after
   {    content: "";
     display: block;
