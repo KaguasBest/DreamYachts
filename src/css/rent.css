@@ -408,6 +408,7 @@
   border-radius: 50%;
   background: #91afba;
   filter: blur(100px);
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 767px) {
