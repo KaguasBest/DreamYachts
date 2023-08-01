@@ -110,14 +110,13 @@ padding: 35px 0;
  
 }
 .header-mobile-menu
-{
-  width: 24px;
-  height: 24px;
-}
+{   width: 24px;
+  height: 24px; }
+
   .mobile-menu-container::after
   {    content: "";
     display: block;
- width: 375px;
+ width: 373px;
  height: 1px;  
  background-color: rgba(246, 245, 239, 0.20); 
  position: absolute;
