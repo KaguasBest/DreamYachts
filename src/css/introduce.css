@@ -50,8 +50,14 @@
   }
 }
 .introduce-yacht-span {
-  color: #a1b5ba;
   font-style: italic;
+  background: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .introduce-two-texts {
   display: inline-flex;
@@ -72,7 +78,7 @@
   font-size: 0.88rem;
   line-height: 1.4;
   letter-spacing: -0.28px;
-  max-width: 10rem;
+  max-width: 45%;
 }
 @media only screen and (min-width: 768px) {
   .introduce-text-text {
