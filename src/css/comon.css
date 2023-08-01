@@ -68,7 +68,7 @@ main {
 
 .text-accent {
   color: transparent;
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   background-image: var(--green-gradient);
   font-style: italic;
   font-weight: 500;

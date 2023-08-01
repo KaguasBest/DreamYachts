@@ -1,6 +1,8 @@
 .hero-section {
   position: relative;
-}
+  overflow: hidden;
+  }
+
 @media only screen and (min-width: 768px) {
   .hero-section {
     padding-top: 64px;
@@ -18,7 +20,7 @@
     justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
-    gap: 217px;
+    justify-content: space-between;
   }
 }
 
@@ -177,46 +179,70 @@
     height: 651px;
 
     margin-top: 64px;
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 32px;
+    margin-right: 0;
   }
 }
 
-.hero-grads {
-}
-
-.hero-grad-grey {
+.hero-section::after {
+  content: "";
   position: absolute;
   width: 279px;
   height: 279px;
-  top: 0;
-  left: -50%;
-  overflow: hidden;
-
-  display: flex;
-
+  top: 22;
+  left: -166px;
   transform: rotate(-45deg);
-  border-radius: 50%;
+  border-radius: 279px;
+  opacity: 0.6;
+  background-color: #91afba;
+  filter: blur(100px);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section::after {
+    width: 414px;
+    height: 414px;
+    top: 50px;
+    left: -390px;
+  }
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  width: 279px;
+  height: 279px;
+  top: -12px;
+  left: -209px;
+  transform: rotate(-45deg);
+  border-radius: 279px;
   opacity: 0.9;
   background-color: #939cac;
   filter: blur(100px);
 }
 
-.hero-grad-green {
-  position: absolute;
-  width: 279px;
-  height: 279px;
+@media only screen and (min-width: 768px) {
+  .hero-section::before {
+    width: 414px;
+    height: 414px;
+    top: 75px;
+    left: -237px;
+  }
+}
 
-  top: 0;
-  left: -75%;
-  overflow: hidden;
-
-  display: flex;
-  transform: rotate(-45deg);
-  border-radius: 50%;
-  opacity: 0.6;
-  background-color: #91afba;
-  filter: blur(100px);
+@media only screen and (min-width: 768px) {
+  .hero-grad {
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    transform: rotate(-45deg);
+    top: 50%;
+    left: 100px;
+    border-radius: 317px;
+    opacity: 0.3;
+    background: #A6A9B2;
+    filter: blur(100px);
+  }
 }
 
 .hero-blok-clients {
@@ -278,7 +304,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
   width: 287px;
   height: 167px;
 }
