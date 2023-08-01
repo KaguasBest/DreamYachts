@@ -1,9 +1,16 @@
 .reviews {
+  padding-top: 80px;
   padding-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
   .reviews {
+    padding-top: 100px;
     padding-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .reviews {
+    padding-top: 164px;
   }
 }
 .reviews-titel {
@@ -66,41 +73,15 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  padding-bottom: 38px;
-  color: var(--alt-accent);
+  padding-bottom: 38px
 }
-@media only screen and (min-width: 768px) {
-  .swiper {
-    padding-bottom: 56px;
-  }
+.swiper-pagination-bullet{
+  background-color: var(--alt-blue);
+  width: 13px;
+  height: 13px;
 }
-
-.swiper-slide {
-  margin-right: 0 !important;
-  max-width: 384px;
-}
-
-@media only screen and (min-width: 768px) {
-  .swiper-wrapper {
-    justify-content: space-between;
-    gap: 32px;
-  }
-}
-
-/* @media only screen and (min-width: 1280px) {
-  .reviews-swiper {
-    display: none;
-  }
-} */
-
-@media only screen and (min-width: 1280px) {
-  .reviews-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
-    margin-bottom: 64px;
-  }
+.swiper-pagination-bullet-active{
+  background-color: var(--alt-accent);
 }
 .reviews-item {
   border-radius: 24px;
@@ -108,15 +89,32 @@
   padding: 24px;
 }
 @media only screen and (min-width: 768px) {
+  .swiper-slide{
+    width: 49%;
+    margin-left: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .swiper-slide{
+    max-width: 384px;
+    margin-left: 32px;
+  }
+  .swiper-pagination{
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
   .reviews-item {
-    max-width: 344px;
+    width: calc((100%-16px)/2);
+    /* width: 344px; */
     padding-top: 24px;
     padding-bottom: 24px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .reviews-item {
-    flex-basis: calc((100% - 16px * 2) / 3);
+    /* width: calc((100%-2*32px)/3); */
+    width: 384px;
     /* min-height: 282px; */
     padding: 32px;
   }
@@ -177,6 +175,7 @@
     max-width: 320px;
   }
 }
+
 .btn {
   font-family: inherit;
   cursor: pointer;
@@ -198,7 +197,7 @@
 }
 
 .reviews-btn-up {
-  width: 34px;
-  height: 34px;
+  width: 8px;
+  height: 16px;
   stroke: var(--light);
 }
