@@ -38,10 +38,15 @@
     letter-spacing: -1.44px;
   }
 }
+
+.introduce-div-adventure {
+  margin-bottom: 32px;
+}
+
 @media only screen and (min-width: 768px) {
   .introduce-div-adventure {
     display: flex;
-    margin: 0 auto 2rem 2rem;
+    margin: 0 auto 2rem 0;
   }
 }
 .introduce-yacht-span {
@@ -76,6 +81,25 @@
     letter-spacing: -0.32px;
   }
 }
+
+.introduce-yacht-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .introduce-yacht-wrap {
+    gap: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .introduce-yacht-wrap {
+    gap: 0;
+  }
+}
+
 @media only screen and (min-width: 1280px) {
   .introduce-yacht-1 {
     display: flex;
@@ -86,14 +110,13 @@
 @media only screen and (min-width: 768px) {
   .introduce-yacht-2 {
     display: flex;
-    margin-left: 2rem;
     margin-right: auto;
   }
 }
 @media only screen and (min-width: 1280px) {
   .introduce-yacht-2 {
-    margin-right: 58.8rem;
-    margin-top: -17rem;
+    margin-right: 57.8rem;
+    margin-top: -17.5rem;
   }
 }
 .introduce-yacht-3 {
@@ -111,6 +134,6 @@
   .introduce-yacht-3 {
     margin-top: 0;
     margin-right: auto;
-    margin-left: 23.25rem;
+    margin-left: 22.75rem;
   }
 }

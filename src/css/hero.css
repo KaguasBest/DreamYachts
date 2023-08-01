@@ -1,7 +1,7 @@
 .hero-section {
   position: relative;
 }
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .hero-section {
     padding-top: 64px;
   }
@@ -10,18 +10,6 @@
 .hero-container {
   padding-left: 0;
   padding-right: 0;
-}
-
-.hero-container::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: block;
-  width: 100%;
-  height: 1px;
-
-  background-color: rgba(246, 245, 239, 0.20);
 }
 
 @media only screen and (min-width: 1280px) {
@@ -94,7 +82,8 @@
   }
 }
 
-.hero-item {}
+.hero-item {
+}
 
 .hero-button {
   display: inline-flex;
@@ -126,7 +115,6 @@
 .hero-button:focus {
   background-color: var(--alt-accent);
 }
-
 
 .hero-anchor {
   display: inline-flex;
@@ -172,16 +160,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: var(--rest-gradient),
-    url('../img/hero/rectangle.png');
+  background-image: var(--rest-gradient), url('../img/hero/rectangle.png');
 }
 
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero-left {
-    background-image: var(--rest-gradient),
-      url('../img/hero/rectangle@2x.png');
+    background-image: var(--rest-gradient), url('../img/hero/rectangle@2x.png');
   }
 }
 
@@ -208,11 +194,11 @@
   overflow: hidden;
 
   display: flex;
-  
+
   transform: rotate(-45deg);
   border-radius: 50%;
   opacity: 0.9;
-  background-color: #939CAC;
+  background-color: #939cac;
   filter: blur(100px);
 }
 
@@ -229,7 +215,7 @@
   transform: rotate(-45deg);
   border-radius: 50%;
   opacity: 0.6;
-  background-color: #91AFBA;
+  background-color: #91afba;
   filter: blur(100px);
 }
 
@@ -359,7 +345,6 @@
   height: 133px;
   margin-top: -346px;
   margin-left: 114px;
-
 }
 
 @media only screen and (min-width: 768px) {
