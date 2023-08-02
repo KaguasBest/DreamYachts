@@ -10,8 +10,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/DreamYachts/assets/index-4a99e108.js"></script>
-    <link rel="stylesheet" href="/DreamYachts/assets/index-8dc882aa.css">
+    <script type="module" crossorigin src="/DreamYachts/assets/index-539e4a70.js"></script>
+    <link rel="stylesheet" href="/DreamYachts/assets/index-53f729e7.css">
   </head>
 
   <body>
@@ -26,15 +26,17 @@
     <nav class="header-navigation">
       <ul class="header-nav-list">
         <li class="header-nav-item">
-          <a class="header-nav-link" href="" rel="noopener noreferrer">About</a>
+          <a class="header-nav-link" href="#introduce" rel="noopener noreferrer"
+            >About</a
+          >
         </li>
         <li class="header-nav-item">
-          <a class="header-nav-link" href="" rel="noopener noreferrer"
+          <a class="header-nav-link" href="#yacht" rel="noopener noreferrer"
             >Yachts</a
           >
         </li>
         <li class="header-nav-item">
-          <a class="header-nav-link" href="" rel="noopener noreferrer"
+          <a class="header-nav-link" href="#reviews" rel="noopener noreferrer"
             >Reviews</a
           >
         </li>
@@ -273,7 +275,7 @@
 
       <!-- |============================ Yuliia - Introduce section ============================ -->
 
-      <section class="introduce">
+      <section id="introduce" class="introduce">
   <div class="container introduce-div">
     <div class="introduce-div-adventure">
       <p class="introduce-text-adventure">
@@ -381,8 +383,14 @@
 
       <!-- |============================ Домантович Оксана - Yacht section ============================ -->
 
-      <section class="section">
+      <section id="yacht" class="section">
   <div class="container yacht">
+    <div class="yacht-wrap-title">
+      <h2 class="yacht-title">
+        Choose your dream yacht and sail away into the sunset
+      </h2>
+      <a class="yacht-btn" href="#rent">Yacht rental</a>
+    </div>
     <!-- Slider main container -->
     <div class="swiper yacht-swiper">
       <!-- Additional required wrapper -->
@@ -390,7 +398,7 @@
         <!-- Slides -->
         <li class="swiper-slide yaht-slider-item">
           <div class="yacht-item">
-            <picture>
+            <picture class="yacht-item-foto">
               <source
                 srcset="/DreamYachts/assets/yacht-1-mobile-cbc316bb.png 1x, /DreamYachts/assets/yacht-1-mobile@2x-fec968c8.png 2x"
                 media="(max-width:375px)"
@@ -427,11 +435,39 @@
                 alt="yacht"
               />
             </picture>
+            <div class="yacht-describe-wrap">
+              <div class="yacht-describe-block">
+                <h3 class="yacht-describe-title">Arrow</h3>
+                <p class="yacht-describe-text">LUXURY YAHTS</p>
+              </div>
+              <ul class="yacht-describe-list">
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">LENGTH</p>
+                  <p class="yacht-describe-item-info">48m(155ft)</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">BUILDER</p>
+                  <p class="yacht-describe-item-info">Admiral</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">BUILT</p>
+                  <p class="yacht-describe-item-info">2021</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">GUESTS</p>
+                  <p class="yacht-describe-item-info">11 in 5 cabins</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">PRICE</p>
+                  <p class="yacht-describe-item-info">€33,500,000</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </li>
         <li class="swiper-slide yaht-slider-item">
           <div class="yacht-item">
-            <picture>
+            <picture class="yacht-item-foto">
               <source
                 srcset="/DreamYachts/assets/yacht-2-mobile-2669204c.png 1x, /DreamYachts/assets/yacht-2-mobile@2x-8318faad.png 2x"
                 media="(max-width:375px)"
@@ -468,11 +504,39 @@
                 alt="yacht"
               />
             </picture>
+            <div class="yacht-describe-wrap">
+              <div class="yacht-describe-block">
+                <h3 class="yacht-describe-title">BENETTI OASIS 40M.</h3>
+                <p class="yacht-describe-text">LUXURY YAHTS</p>
+              </div>
+              <ul class="yacht-describe-list">
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">LENGTH</p>
+                  <p class="yacht-describe-item-info">41m (133ft)</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">BUILDER</p>
+                  <p class="yacht-describe-item-info">Benetti</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">BUILT</p>
+                  <p class="yacht-describe-item-info">2025</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">GUESTS</p>
+                  <p class="yacht-describe-item-info">10 in 5 cabins</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">PRICE</p>
+                  <p class="yacht-describe-item-info">€23,500,000</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </li>
         <li class="swiper-slide yaht-slider-item">
           <div class="yacht-item">
-            <picture>
+            <picture class="yacht-item-foto">
               <source
                 srcset="/DreamYachts/assets/yacht-3-mobile-c8e8815a.png 1x, /DreamYachts/assets/yacht-3-mobile@2x-2ec1676b.png 2x"
                 media="(max-width:375px)"
@@ -509,6 +573,34 @@
                 alt="yacht"
               />
             </picture>
+            <div class="yacht-describe-wrap">
+              <div class="yacht-describe-block">
+                <h3 class="yacht-describe-title">BELLE ANNA</h3>
+                <p class="yacht-describe-text">LUXURY YAHTS</p>
+              </div>
+              <ul class="yacht-describe-list">
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">LENGTH</p>
+                  <p class="yacht-describe-item-info">50m(155ft)</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">SHIPYARD</p>
+                  <p class="yacht-describe-item-info">ISA</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">BUILT</p>
+                  <p class="yacht-describe-item-info">2012</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">GUESTS</p>
+                  <p class="yacht-describe-item-info">12 in 6 cabins</p>
+                </li>
+                <li class="yacht-describe-item">
+                  <p class="yacht-describe-item-title">PRICE</p>
+                  <p class="yacht-describe-item-info">€21,000,000</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </li>
       </ul>
@@ -781,7 +873,7 @@
 
       <!-- |============================ Домантович Оксана - Reviews section ============================ -->
 
-      <section class="section">
+      <section id="reviews" class="section">
   <div class="container reviews">
     <div class="reviews-bloc-titel">
       <h3 class="reviews-titel">
@@ -944,24 +1036,25 @@
 
     <footer class="footer">
   <div class="container footer-container">
-
     <div class="footer-logo-menu-social">
-
       <a class="footer-logo" href="./index.html">
-        <img class="footer-logo-img" src="/DreamYachts/assets/yaht-icon-1ac1de6e.svg" alt="logo" />Yacht
-        Adventures
+        <img
+          class="footer-logo-img"
+          src="/DreamYachts/assets/yaht-icon-1ac1de6e.svg"
+          alt="logo"
+        />Yacht Adventures
       </a>
 
       <div class="footer-menu">
         <ul class="footer-menu-list">
           <li class="footer-menu-item">
-            <a class="footer-menu-anchor" href="">About</a>
+            <a class="footer-menu-anchor" href="#introduce">About</a>
           </li>
           <li class="footer-menu-item">
-            <a class="footer-menu-anchor" href="">Yahts</a>
+            <a class="footer-menu-anchor" href="#yacht">Yahts</a>
           </li>
           <li class="footer-menu-item">
-            <a class="footer-menu-anchor" href="">Reviews</a>
+            <a class="footer-menu-anchor" href="#reviews">Reviews</a>
           </li>
         </ul>
       </div>
@@ -970,24 +1063,39 @@
         <p class="footer-social-text">We in social</p>
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="footer-social-icon">
+            <a
+              class="footer-social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-social-icon" width="22" height="22">
                 <use href="/DreamYachts/assets/icons-c512ea22.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
 
           <li class="footer-social-item">
-            <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="footer-social-icon">
+            <a
+              class="footer-social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-social-icon" width="22" height="22">
                 <use href="/DreamYachts/assets/icons-c512ea22.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
 
           <li class="footer-social-item">
-            <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="footer-social-icon">
+            <a
+              class="footer-social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-social-icon" width="22" height="22">
                 <use href="/DreamYachts/assets/icons-c512ea22.svg#icon-youtube"></use>
               </svg>
             </a>
@@ -1000,11 +1108,17 @@
     <div class="footer-spot-2"></div>
     <div class="footer-bottom-container">
       <p class="footer-bottom-text">2023. Yaht Adventures</p>
-      <a class="footer-bottom-link" href="" target="_blank" rel="noopener noreferrer">Privacy Police</a>
+      <a
+        class="footer-bottom-link"
+        href=""
+        target="_blank"
+        rel="noopener noreferrer"
+        >Privacy Police</a
+      >
     </div>
-
   </div>
 </footer>
+
 
     <!-- End Footer section -->
 
