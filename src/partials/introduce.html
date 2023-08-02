@@ -1,4 +1,5 @@
 <section class="introduce">
+  <h3 class="visually-hidden">Introduce adventures</h3>
   <div class="container introduce-div">
     <div class="introduce-div-adventure">
       <p class="introduce-text-adventure">
@@ -25,33 +26,45 @@
       <div class="introduce-yacht-1">
         <picture>
           <source
-            srcset="./img/about/yacht-1-mobile.webp 1x"
-            ,
-            srcset="./img/about/yacht-1-mobile@2x.webp 2x"
-            ,
-            srcset="./img/about/yacht-1-mobile.jpg 1x"
-            ,
-            srcset="./img/about/yacht-1-mobile@2x.jpg 2x"
+            srcset="
+              ./img/about/yacht-1-mobile.webp    1x,
+              ./img/about/yacht-1-mobile@2x.webp 2x
+            "
             media="(max-width: 767px)"
           />
           <source
-            srcset="./img/about/yacht-1-tablet.webp 1x"
-            ,
-            srcset="./img/about/yacht-1-tablet@2x.webp 2x"
-            ,
-            srcset="./img/about/yacht-1-tablet.jpg 1x"
-            ,
-            srcset="./img/about/yacht-1-tablet@2x.jpg 2x"
+            srcset="
+              ./img/about/yacht-1-mobile.jpg    1x,
+              ./img/about/yacht-1-mobile@2x.jpg 2x
+            "
+            media="(max-width:767px)"
+          />
+          <source
+            srcset="
+              ./img/about/yacht-1-tablet.webp    1x,
+              ./img/about/yacht-1-tablet@2x.webp 2x
+            "
             media="(max-width: 1279px)"
           />
           <source
-            srcset="./img/about/yacht-1-desktop.webp 1x"
-            ,
-            srcset="./img/about/yacht-1-desktop@2x.webp 2x"
-            ,
-            srcset="./img/about/yacht-1-desktop.jpg 1x"
-            ,
-            srcset="./img/about/yacht-1-desktop@2x.jpg 2x"
+            srcset="
+              ./img/about/yacht-1-tablet.jpg   1x,
+              /img/about/yacht-1-tablet@2x.jpg 2x
+            "
+            media="(max-width:1279px)"
+          />
+          <source
+            srcset="
+              ./img/about/yacht-1-desktop.webp   1x,
+              /img/about/yacht-1-desktop@2x.webp 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/about/yacht-1-desktop.jpg    1x,
+              ./img/about/yacht-1-desktop@2x.jpg 2x
+            "
             media="(min-width: 1280px)"
           />
           <img src="./img/about/yacht-1-mobile.jpg" alt="on board the yacht" />
@@ -66,22 +79,24 @@
             ./img/about/yacht-2-mobile.webp    1x,
             ./img/about/yacht-2-mobile@2x.webp 2x
           "
+          media="(max-width: 767px)"
         />
         <source
           srcset="
             ./img/about/yacht-2-mobile.jpg    1x,
             ./img/about/yacht-2-mobile@2x.jpg 2x
           "
+          media="(max-width: 767px)"
         />
-        media="(max-width: 767px)" />
         <source
-          srcset="./img/about/yacht-2.webp 1x"
-          ,
-          srcset="./img/about/yacht-2@2x.webp 2x"
-          ,
-          srcset="./img/about/yacht-2-tablet.jpg 1x"
-          ,
-          srcset="./img/about/yacht-2-tablet@2x.jpg 2x"
+          srcset="./img/about/yacht-2.webp 1x, ./img/about/yacht-2@2x.webp 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/about/yacht-2-tablet.jpg    1x,
+            ./img/about/yacht-2-tablet@2x.jpg 2x
+          "
           media="(min-width: 768px)"
         />
         <img src="./img//about//yacht-2.webp" alt="on board the yacht" />
@@ -91,12 +106,12 @@
     <div class="introduce-yacht-3">
       <picture>
         <source
-          srcset="./img/about/yacht-3.webp 1x"
-          ,
-          srcset="./img/about/yacht-3@2x.webp 2x"
-          srcset="./img/about/yacht-3.jpg 1x"
-          ,
-          srcset="./img/about/yacht-3@2x.jpg 2x"
+          srcset="./img/about/yacht-3.webp 1x, ./img/about/yacht-3@2x.webp 2x"
+          media="(max-width:320px)"
+        />
+        <source
+          srcset="./img/about/yacht-3.jpg 1x, ./img/about/yacht-3@2x.jpg 2x"
+          media="(max-width:320px)"
         />
         <img src="./img/about/yacht-3.jpg" alt="yacht in the sea" />
       </picture>
