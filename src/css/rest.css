@@ -5,7 +5,18 @@
   background-position: top 50% left -286px;
 }
 .rest-container {
-  padding: 0 !important;
+  padding-top: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .rest-container {
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rest-container {
+    padding-top: 164px;
+  }
 }
 .rest-list {
   display: flex;

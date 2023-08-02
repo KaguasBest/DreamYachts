@@ -1,0 +1,112 @@
+.yacht {
+  padding-top: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .yacht {
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .yacht {
+    padding-top: 164px;
+  }
+}
+
+.yacht-swiper {
+  padding-bottom: 70px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yacht-swiper {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .yacht-swiper {
+    padding-bottom: 0;
+  }
+}
+.yacht-item {
+  background: var(--alt-blue);
+  border-radius: 24px;
+  padding: 18px 18px 24px 18px;
+}
+
+.swiper-wrapper {
+  gap: 16px;
+  justify-content: center;
+}
+
+.yaht-slider-item {
+  max-width: 354px !important;
+  margin-left: 0 !important;
+}
+
+/* Slider */
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: 94%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  transition: color var(--anim), border-color var(--anim);
+}
+
+.swiper-button-next:hover + .swiper-button-next::after,
+.swiper-button-prev:hover + .swiper-button-prev::after,
+.swiper-button-next:focus + .swiper-button-next::after,
+.swiper-button-prev:focus + .swiper-button-prev::after {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.swiper-button-prev {
+  left: 36%;
+}
+
+.swiper-button-next {
+  right: 36%;
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper-button-prev {
+    left: 42%;
+  }
+
+  .swiper-button-next {
+    right: 42%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 10px);
+    right: auto;
+  }
+
+  .swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 10px);
+    left: auto;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  }
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  padding: 14px 22px;
+  width: 52px;
+  height: 40px;
+  color: var(--light);
+  font-size: 12px;
+  border: 1px solid var(--light);
+  border-radius: 60px;
+}
