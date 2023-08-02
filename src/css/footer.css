@@ -32,6 +32,7 @@
   line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  transition: color var(--anim);
 }
 
 .footer-logo-img {
@@ -62,6 +63,7 @@
   line-height: 1.18;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  transition: color var(--anim);
 }
 
 .footer-menu-anchor:hover,
@@ -93,8 +95,6 @@
 .footer-social-item {
   width: 32px;
   height: 32px;
-  stroke-width: 1px;
-  stroke: var(--accent);
 }
 
 .footer-social-link {
@@ -105,35 +105,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  stroke-width: 1px;
-  stroke: var(--opacity-light);
+  fill: var(--light);
+  transition: color var(--anim), border-color var(--anim);
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  border: var(--accent);
+  border-color: var(--accent);
+  fill: var(--accent);
 }
 
 .footer-social-icon {
-  fill: var(--light);
+  height: 22px;
+  width: 22px;
   stroke-width: 1px;
-  stroke: var(--light);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.footer-social-icon:hover,
-.footer-social-icon:focus {
-  fill: currentColor;
-}
-
-.footer-social-item:hover,
-.footer-social-item:focus {
-  border-color: var(--accent);
-}
-
-.footer-social-icon:hover,
-.footer-social-icon:focus {
-  fill: var(--accent);
+  filter: drop-shadow(4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .footer-bottom-container {
