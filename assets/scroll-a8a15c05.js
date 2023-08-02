@@ -1,1 +1,0 @@
-let t=document.getElementById("down");t.onclick=function(){window.scrollTo({top:9999,behavior:"smooth"})};document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(o){o.preventDefault(),document.querySelector(this.getAttribute("href")).scrollIntoView({behavior:"smooth"})})});
