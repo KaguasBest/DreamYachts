@@ -15,9 +15,9 @@
     <!-- Slider main container -->
     <div class="swiper reviews-swiper">
       <!-- Additional required wrapper -->
-      <ul class="swiper-wrapper">
+      <ul class="swiper-wrapper reviews-swiper-wrapper">
         <!-- Slides -->
-        <li class="swiper-slide">
+        <li class="swiper-slide reviews-swiper-slide">
           <div class="reviews-item response-box-1">
             <div class="reviews-box-foto">
               <picture>
@@ -68,7 +68,7 @@
             </p>
           </div>
         </li>
-        <li class="swiper-slide">
+        <li class="swiper-slide reviews-swiper-slide">
           <div class="reviews-item response-box-2">
             <div class="reviews-box-foto">
               <picture>
@@ -119,7 +119,7 @@
             </p>
           </div>
         </li>
-        <li class="swiper-slide">
+        <li class="swiper-slide reviews-swiper-slide">
           <div class="reviews-item response-box-3">
             <div class="reviews-box-foto">
               <picture>
@@ -176,12 +176,13 @@
     </div>
 
     <button
-    class="btn reviews-btn-scroll end-0 d-none"
-    onclick="scrollToTop()" id="back-to-up">
+      class="btn reviews-btn-scroll end-0 d-none"
+      onclick="scrollToTop()"
+      id="back-to-up"
+    >
       <svg class="reviews-btn-up" width="8" height="16">
         <use href="./img/icons.svg#icon-up"></use>
       </svg>
     </button>
-
   </div>
 </section>
