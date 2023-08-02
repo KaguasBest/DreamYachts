@@ -1,17 +1,20 @@
 .rent-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  padding-top: 80px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .rent-container {
-    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 100px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .rent-container {
-    padding: 164px 0;
+    padding-top: 164px;
   }
 }
 
@@ -138,13 +141,6 @@
 
 .rent-icon-btn-send {
   margin-left: 16px;
-}
-
-
-@media only screen and (min-width: 1280px) {
-  .section-rent {
-    padding: 164px 183px 164px 184px;
-  }
 }
 
 .rent-title {
@@ -310,7 +306,6 @@
   /* width: 570px; */
 }
 
-
 .container-rent-modal {
   padding: 40px 24px;
   top: 50%;
@@ -375,19 +370,14 @@
   }
 }
 
-
-
 .modal-txt {
-
   width: 100%;
   color: var(--light, #f6f5ef);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: -0.28px;
-
 }
-
 
 @media only screen and (min-width: 768px) {
   .modal-txt {
