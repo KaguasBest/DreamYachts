@@ -1,3 +1,20 @@
+.rent-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .rent-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .rent-container {
+    padding: 164px 0;
+  }
+}
+
 .rent-title {
   color: var(--light, #f6f5ef);
   font-size: 36px;
@@ -23,22 +40,6 @@
   .rent-title {
     margin-bottom: 64px;
     width: 282px;
-  }
-}
-
-.rent-container {
-  display: flex;
-}
-
-@media only screen and (max-width: 768px) {
-  .rent-container {
-    flex-wrap: wrap;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .rent-container {
-    padding: 164px 0;
   }
 }
 
@@ -139,22 +140,10 @@
   margin-left: 16px;
 }
 
-/**
-=======
-.section-rent {
-}
-
-/* @media only screen and (min-width: 768px) {
-  .section-rent {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-} */
 
 @media only screen and (min-width: 1280px) {
   .section-rent {
     padding: 164px 183px 164px 184px;
-    /* передивитись верхній  і нижній падінги  з сусідніми секціями */
   }
 }
 
@@ -314,10 +303,30 @@
 */
 
 .container-rent-modal {
+  margin: auto;
+  z-index: 2;
   position: fixed;
   top: 0;
-  width: 100%;
-  height: 100%;
+  /* width: 570px; */
+}
+
+
+.container-rent-modal {
+  padding: 40px 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  background: var(--alt-blue, #1f212d);
+  width: 335px;
+  transition: transform 5250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (min-width: 768px) {
+  .container-rent-modal {
+    width: 570px;
+    padding: 97px 64px 64px 64px;
+  }
 }
 
 .is-hidden {
@@ -326,23 +335,8 @@
   pointer-events: none;
 }
 
-.rent-modal {
-  padding: 40px 24px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 20px;
-  background: var(--dark-blue);
-  width: 335px;
-  transition: transform 5250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media only screen and (min-width: 768px) {
-  .rent-modal {
-    width: 570px;
-    padding: 97px 64px 64px 64px;
-  }
+.rent-img {
+  margin: 0 auto;
 }
 
 .rent-modal-btn {
@@ -369,6 +363,7 @@
   line-height: 1.2;
   letter-spacing: -1.08px;
   margin-bottom: 14px;
+  margin-top: 24px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -376,20 +371,27 @@
     font-size: 32px;
     letter-spacing: -1.44px;
     margin-bottom: 16px;
+    margin-top: 21px;
   }
 }
 
+
+
 .modal-txt {
+
   width: 100%;
   color: var(--light, #f6f5ef);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: -0.28px;
+
 }
+
 
 @media only screen and (min-width: 768px) {
   .modal-txt {
+    font-size: 16px;
     width: 442px;
     font-size: 16px;
     font-weight: 400;
@@ -459,40 +461,16 @@
 @media only screen and (min-width: 768px) {
   .rent-modal-elips {
     top: 86px;
-    right: 340px;
+    right: 180px;
     width: 265px;
     height: 265px;
   }
-}
-
-.container-rent-modal {
-  position: relative;
-  width: 100%;
-  height: 100%;
 }
 
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
-
-.rent-modal {
-  padding: 40px 24px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 20px;
-  background: var(--dark-blue);
-  width: 335px;
-}
-
-@media only screen and (min-width: 768px) {
-  .rent-modal {
-    width: 570px;
-    padding: 97px 64px 64px 64px;
-  }
 }
 
 .rent-modal-btn {
