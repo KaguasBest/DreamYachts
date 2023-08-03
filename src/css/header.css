@@ -113,7 +113,10 @@
 
 .mobile-menu-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 375px;
+  margin: 0 auto;
 }
 .mobile-menu-container::after {
   content: '';
@@ -130,9 +133,6 @@
   height: 40px;
   background-color: transparent;
   border: none;
-  position: absolute;
-  top: 35px;
-  right: 35px;
 
   color: var(--light);
 }
