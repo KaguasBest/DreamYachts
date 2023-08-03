@@ -50,6 +50,10 @@
   padding: 35px 0;
 }
 
+.header-nav-link:hover,
+.header-nav-link:focus
+{color: var(--accent);}
+
 /* ---------------- Mobile Menu ---------------- */
 .header-burger-btn {
   margin-left: auto;
@@ -95,6 +99,7 @@
 .mobile-menu-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 375px;
   border-bottom: 1px solid rgba(246, 245, 239, 0.2);
   margin-bottom: 140px;
@@ -104,8 +109,10 @@
   max-width: 140px;
 }
 
-.mobile-close-btn {
-  padding-right: 20px;
+
+    .mobile-close-btn {
+ padding-right: 24px;
+
   background-color: transparent;
   border: none;
   margin-left: auto;
