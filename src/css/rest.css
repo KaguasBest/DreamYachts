@@ -1,0 +1,126 @@
+.rest-section {
+  min-width: 320px;
+  background-image: url(../img/services/ellipse.png);
+  background-repeat: no-repeat;
+  background-position: top 50% left -286px;
+}
+.rest-container {
+  padding-top: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .rest-container {
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rest-container {
+    padding-top: 164px;
+  }
+}
+.rest-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+.rest-item {
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  transition: transform var(--anim);
+}
+.rest-item:last-child {
+  margin-bottom: 0;
+}
+
+.rest-item:hover {
+  transform: scale(1.05);
+}
+
+.rest-button {
+  padding: 14px 28px;
+  border-radius: 60px;
+  background: var(--light);
+  border: none;
+  position: absolute;
+  bottom: 24px;
+  margin-left: 24px;
+  color: var(--dark-blue);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.63px;
+  transition: color var(--anim), background-color var(--anim);
+}
+
+.rest-button:hover,
+.rest-button:focus {
+  color: var(--light);
+  background-color: var(--dark-blue);
+}
+
+/**
+  |============================
+  | Tablet
+  |============================
+*/
+@media only screen and (min-width: 768px) {
+  .rest-section {
+    min-width: 768px;
+    background-image: url(../img/services/ellipse-tab-desc.png);
+    background-position: top 50% left -305px;
+  }
+
+  .rest-list {
+    width: 100%;
+  }
+
+  .rest-item {
+    margin-bottom: 32px;
+  }
+  .fishing-item {
+    margin-left: 336px;
+  }
+
+  .sunbathing-item {
+    margin-left: 64px;
+  }
+  .rest-button {
+    font-size: 18px;
+  }
+}
+/**
+  |============================
+  | Desktop
+  |============================
+*/
+@media only screen and (min-width: 1280px) {
+  .rest-section {
+    min-width: 1280px;
+    background-position: top 30% left -299px;
+  }
+  .rest-list {
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  .diving-item {
+    margin-left: 0;
+    margin-right: 64px;
+    margin-bottom: 64px;
+  }
+  .fishing-item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 64px;
+  }
+  .sunbathing-item {
+    margin-left: 372px;
+  }
+}

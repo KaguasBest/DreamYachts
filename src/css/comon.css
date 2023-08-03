@@ -1,0 +1,88 @@
+/**
+  |============================
+  | Common style
+  |============================
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+main {
+  color: var(--light);
+  overflow: hidden;
+}
+
+/* .section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--dark-blue);
+}
+
+@media only screen and (min-width: 768px) {
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+} */
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.section-title {
+  color: var(--light);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.62px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-title {
+    font-size: 60px;
+    letter-spacing: -2.7px;
+  }
+}
+
+.text-accent {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: var(--green-gradient);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

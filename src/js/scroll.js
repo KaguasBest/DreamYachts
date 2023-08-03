@@ -1,17 +1,25 @@
-let btnDown = document.getElementById('down'); //on button in Hero section
-btnDown.onclick = function scrollDown() {
-  window.scrollTo({
-    top: 9999, //device height in px
-    behavior: 'smooth', // slow scroll
+(() => {
+  window.addEventListener('scroll', function () {
+    var button = document.getElementById('back-to-up');
+    if (button) {
+      button.style.visibility =
+        window.scrollY > window.innerHeight ? 'visible' : 'hidden';
+    }
   });
-};
 
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
+  document.querySelector('#back-to-up').addEventListener('click', scrollToTop);
 
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth',
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth',
+      });
     });
   });
-});
+})();
