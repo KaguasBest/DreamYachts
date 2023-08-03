@@ -84,11 +84,11 @@ padding: 35px 0;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 
-  background-image: linear-gradient( 
+  background-image: linear-gradient(to left bottom, 
   rgba(3, 3, 37, 0.5),
   
-  rgba(35, 56, 65, 0.15),
-  rgba(125, 131, 139, 0.15));
+  rgba(15, 76, 85, 0.1),
+  rgba(125, 131, 139, 0.35));
   }
   
   .menu-container.is-open {
