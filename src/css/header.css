@@ -52,6 +52,10 @@ text-transform: uppercase;
 padding: 35px 0;
 }
 
+.header-nav-link:hover,
+.header-nav-link:focus
+{color: var(--accent);}
+
 /* ---------------- Mobile Menu ---------------- */
 .header-burger-btn {
   
