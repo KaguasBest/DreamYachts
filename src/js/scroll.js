@@ -1,16 +1,25 @@
-window.onscroll = () => {
-  toggleTopButton();
-}
-function scrollToTop(){
-  window.scrollTo({top: 0, behavior: 'smooth'});
-}
+(() => {
+  window.addEventListener('scroll', function () {
+    var button = document.getElementById('back-to-up');
+    if (button) {
+      button.style.visibility =
+        window.scrollY > window.innerHeight ? 'visible' : 'hidden';
+    }
+  });
 
-function toggleTopButton() {
-  if (document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20) {
-    document.getElementById('back-to-up').classList.remove('d-none');
-  } else {
-    document.getElementById('back-to-up').classList.add('d-none');
+  document.querySelector('#back-to-up').addEventListener('click', scrollToTop);
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-}
 
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth',
+      });
+    });
+  });
+})();

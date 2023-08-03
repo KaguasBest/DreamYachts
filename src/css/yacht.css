@@ -176,6 +176,15 @@
   border-radius: 60px;
 }
 
+.yacht-foto {
+  transition: transform var(--anim);
+  margin: auto;
+}
+
+.yacht-item:focus .yacht-foto,
+.yacht-item:hover .yacht-foto {
+  transform: scale(1.1);
+}
 .yacht-describe-block {
   margin: 32px 0;
   display: flex;
