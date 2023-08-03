@@ -33,9 +33,14 @@
   margin-right: auto;
   margin-left: auto;
   position: relative;
+  transition: transform var(--anim);
 }
 .rest-item:last-child {
   margin-bottom: 0;
+}
+
+.rest-item:hover {
+  transform: scale(1.05);
 }
 
 .rest-button {
