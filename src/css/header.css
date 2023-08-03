@@ -103,6 +103,7 @@ padding: 35px 0;
   .mobile-menu-container
   {display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 375px;
   border-bottom: 1px solid rgba(246, 245, 239, 0.20);
   margin-bottom: 140px;
