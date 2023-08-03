@@ -32,7 +32,9 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 
-
+.header-logo:hover,
+.header-logo:focus
+{color: var(--accent);}
 
 .header-navigation
 {padding-top: 35px;
@@ -116,7 +118,7 @@ padding: 35px 0;
   .mobile-menu-container::after
   {    content: "";
     display: block;
- width: 373px;
+ width: 335px;
  height: 1px;  
  background-color: rgba(246, 245, 239, 0.20); 
  position: absolute;
@@ -165,12 +167,12 @@ text-transform: uppercase;
     line-height: 118%; 
     letter-spacing: 0.54px;}
     .header-container::after
-  {width: 768px;
+  {width: 704px;
   top: 87px;} }
 
   @media screen and (min-width: 1280px) 
   {  .header-container::after
-    {width: 1280px;
+    {width: 1216px;
     top: 89px;} 
 
   }
