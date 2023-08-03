@@ -1,6 +1,6 @@
 .rest-section {
   min-width: 320px;
-  background-image: url(./img/services/ellipse.png);
+  background-image: url(../img/services/ellipse.png);
   background-repeat: no-repeat;
   background-position: top 50% left -286px;
   padding-top: 80px;
@@ -60,7 +60,7 @@
 @media only screen and (min-width: 768px) {
   .rest-section {
     min-width: 768px;
-    background-image: url(./img/services/ellipse-tab-desc.png);
+    background-image: url(../img/services/ellipse-tab-desc.png);
     background-position: top 50% left -305px;
     padding-top: 100px;
   }
