@@ -1,9 +1,13 @@
-.header-container {
-  display: flex;
+.header-container
+{display: flex;
+  
+    background-color: var(--dark-blue);
+    border-bottom: 1px solid rgba(246, 245, 239, 0.20);
+    /* outline: 1px solid tomato; */
+
 
   background-color: var(--dark-blue);
   max-width: 375px;
-  /* outline: 1px solid tomato; */
 }
 .header-container::after {
   content: '';
