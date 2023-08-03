@@ -2,7 +2,7 @@
   position: relative;
   padding-top: 40px;
   padding-bottom: 80px;
-  }
+}
 
 @media only screen and (min-width: 768px) {
   .hero-section {
@@ -203,7 +203,7 @@
 }
 
 .hero-left::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 279px;
   height: 279px;
@@ -225,16 +225,15 @@
   }
 }
 
-
 @media only screen and (min-width: 1280px) {
   .hero-left::after {
     bottom: 20px;
-    left: -254px
+    left: -254px;
   }
 }
 
 .hero-left::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 279px;
   height: 279px;
@@ -273,7 +272,7 @@
     left: 52px;
     border-radius: 50%;
     opacity: 0.3;
-    background: #A6A9B2;
+    background: #a6a9b2;
     filter: blur(100px);
   }
 }
