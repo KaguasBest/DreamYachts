@@ -3,20 +3,7 @@
   background-image: url(../img/services/ellipse.png);
   background-repeat: no-repeat;
   background-position: top 50% left -286px;
-}
-.rest-container {
   padding-top: 80px;
-}
-
-@media only screen and (min-width: 768px) {
-  .rest-container {
-    padding-top: 100px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .rest-container {
-    padding-top: 164px;
-  }
 }
 .rest-list {
   display: flex;
@@ -50,7 +37,7 @@
   border: none;
   position: absolute;
   bottom: 24px;
-  margin-left: 24px;
+  left: 24px;
   color: var(--dark-blue);
   font-size: 14px;
   font-weight: 700;
@@ -67,7 +54,7 @@
 
 /**
   |============================
-  | Tablet
+  | Tablet services section
   |============================
 */
 @media only screen and (min-width: 768px) {
@@ -75,6 +62,7 @@
     min-width: 768px;
     background-image: url(../img/services/ellipse-tab-desc.png);
     background-position: top 50% left -305px;
+    padding-top: 100px;
   }
 
   .rest-list {
@@ -97,13 +85,14 @@
 }
 /**
   |============================
-  | Desktop
+  | Desktop services section
   |============================
 */
 @media only screen and (min-width: 1280px) {
   .rest-section {
     min-width: 1280px;
     background-position: top 30% left -299px;
+    padding-top: 164px;
   }
   .rest-list {
     flex-direction: row;
