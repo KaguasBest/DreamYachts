@@ -106,13 +106,14 @@
   align-items: center;
   justify-content: center;
   fill: var(--light);
-  transition: color var(--anim), border-color var(--anim);
+  transition: color var(--anim), border-color var(--anim), transform var(--anim);
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
   border-color: var(--accent);
   fill: var(--accent);
+  transform: scale(1.1);
 }
 
 .footer-social-icon {

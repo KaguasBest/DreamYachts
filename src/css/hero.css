@@ -173,8 +173,8 @@
   position: relative;
 
   margin-top: 40px;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
 
   background-color: transparent;
   background-repeat: no-repeat;
@@ -198,9 +198,33 @@
 
     margin-top: 64px;
     margin-left: 32px;
-    margin-right: 32px;
+    margin-right: 0;
   }
 }
+
+.hero-left::after {
+  content: "";
+  position: absolute;
+  width: 279px;
+  height: 279px;
+  top: -2px;
+  left: -264px;
+  transform: rotate(-45deg);
+  border-radius: 50%;
+  opacity: 0.6;
+  background-color: #91afba;
+  filter: blur(100px);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-left::after {
+    width: 414px;
+    height: 414px;
+    top: 98px;
+    left: -424px;
+  }
+}
+
 
 @media only screen and (min-width: 1280px) {
   .hero-left::after {
@@ -232,7 +256,7 @@
   }
 }
 
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 1280px) {
   .hero-left::before {
     bottom: -40px;
     left: -17px;
