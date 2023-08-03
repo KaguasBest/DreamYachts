@@ -1,17 +1,12 @@
-.introduce img {
-  margin-bottom: 1.5rem;
-}
 .introduce-div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.25rem;
   min-width: 320px;
   margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
   .introduce-div {
-    padding: 2rem;
     width: 768px;
   }
 }
@@ -27,7 +22,7 @@
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: -1.08px;
+  letter-spacing: -0.068rem;
   margin-bottom: 2.5rem;
   max-width: 21rem;
 }
@@ -35,7 +30,7 @@
   .introduce-text-adventure {
     max-width: 25.9rem;
     font-size: 2rem;
-    letter-spacing: -1.44px;
+    letter-spacing: -0.068rem;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -79,7 +74,7 @@
   .introduce-text-text {
     max-width: 9.69rem;
     font-size: 1rem;
-    letter-spacing: -0.32px;
+    letter-spacing: -0.018rem;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -105,6 +100,8 @@
 .introduce-yacht-3 {
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  right: 1.25rem;
 }
 @media only screen and (min-width: 768px) {
   .introduce-yacht-3 {
@@ -119,4 +116,7 @@
     margin-right: auto;
     margin-left: 22.25rem;
   }
+}
+.introduce-yacht-wrap {
+  position: relative;
 }
