@@ -1,3 +1,4 @@
+
 .header-container
 {display: flex;
   
@@ -8,10 +9,11 @@
 
       
 
-.header-logo
-{display: flex;
-    align-items: center;
-gap: 8px;
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 
 padding: 24px 0;
 color: var(--light);
@@ -29,26 +31,39 @@ text-transform: uppercase;
 
 .header-navigation
 {padding-top: 35px;
-  padding-bottom: 35px;
-margin-left: auto;}
 
-.header-nav-list
-{display: flex;
-  align-items: center;
-  justify-content: center;
-gap: 24px;
+  padding-bottom: 35px;
+  margin-left: auto;
 }
 
-.header-nav-link
-{   color: var(--light);
-text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-font-size: 14px;
-font-weight: 700;
-line-height: 118%;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
 
-padding: 35px 0;
+.header-nav-link {
+  color: var(--light);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 118%;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  transition: color var(--anim);
+
+  padding: 35px 0;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent);
+}
+
+.header-mobile-menu {
+  width: 34px;
+  height: 34px;
 }
 
 /* ---------------- Mobile Menu ---------------- */
@@ -62,16 +77,17 @@ padding: 35px 0;
     border: none;
     
     outline: none; 
+
 }
 @media (min-width: 768px) {
-    .header-burger-btn {
-      display: none;
-    }
+  .header-burger-btn {
+    display: none;
   }
+}
 
-  
-   
+
  .menu-container {
+
   position: fixed;
   top: 0;
   left: 0;
@@ -82,7 +98,7 @@ padding: 35px 0;
   z-index: 999;
 
   transform: translateX(100%);
-  transition: transform 250ms ease-in-out;
+  transition: transform var(--anim);
 
   background-image: linear-gradient(to left bottom, 
   rgba(3, 3, 37, 0.5),
@@ -95,8 +111,9 @@ padding: 35px 0;
     transform: translateX(0);
   }
 
-  .mobile-menu-container
-  {display: flex;
+
+.mobile-menu-container {
+  display: flex;
   align-items: center;
   width: 375px;
   border-bottom: 1px solid rgba(246, 245, 239, 0.20);
@@ -136,9 +153,11 @@ font-weight: 700;
 line-height: 118%; 
 letter-spacing: 0.42px;
 text-transform: uppercase;
-  }
 
- 
+  }
+}
+
+
 @media only screen and (max-width: 767px)
 {.header-navigation
 {display: none;}}
@@ -152,3 +171,4 @@ text-transform: uppercase;
      }
 
   
+
