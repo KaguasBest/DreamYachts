@@ -20,18 +20,24 @@
   align-items: center;
   gap: 8px;
 
-  padding: 28px 0;
+  padding: 24px 0;
   color: var(--light);
 
   font-size: 14px;
   font-weight: 700;
-  line-height: 114%; /* 15.96px */
+  line-height: 114%;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
 
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--accent);
+}
+
 .header-navigation {
   padding-top: 35px;
+
   padding-bottom: 35px;
   margin-left: auto;
 }
@@ -57,8 +63,6 @@
 
 /* ---------------- Mobile Menu ---------------- */
 .header-burger-btn {
-  height: 24px;
-  width: 24px;
   margin-left: auto;
 
   padding: 24px 0;
@@ -74,29 +78,24 @@
   }
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
 .menu-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 12px;
+  padding: 15px 15px;
   background-color: var(--dark-blue);
   z-index: 999;
 
   transform: translateX(100%);
-  transition: transform 250ms ease-in-out;
+  transition: transform var(--anim);
 
   background-image: linear-gradient(
     to left bottom,
-    rgba(4, 4, 43, 0.5),
-    rgba(145, 175, 186, 0.15),
-    rgba(155, 163, 177, 0.15)
+    rgba(3, 3, 37, 0.5),
+    rgba(15, 76, 85, 0.1),
+    rgba(125, 131, 139, 0.35)
   );
 }
 
@@ -107,36 +106,29 @@
 .mobile-menu-container {
   display: flex;
   align-items: center;
-}
-.mobile-menu-container::after {
-  content: '';
-  display: block;
   width: 375px;
-  height: 1px;
-  background-color: rgba(246, 245, 239, 0.2);
-  position: absolute;
-  top: 75px;
+  border-bottom: 1px solid rgba(246, 245, 239, 0.2);
+  margin-bottom: 140px;
+}
+.mobile-list-container {
+  margin: 0 auto;
+  max-width: 140px;
 }
 
 .mobile-close-btn {
-  width: 40px;
-  height: 40px;
+  padding-right: 20px;
   background-color: transparent;
   border: none;
-  position: absolute;
-  top: 35px;
-  right: 35px;
+  margin-left: auto;
 
   color: var(--light);
 }
 
 .mobile-menu {
-  padding: 200px 160px;
-
   list-style: none;
 }
 
-.mobile-menu .link {
+.mobile-menu-link {
   display: block;
   padding: 14px;
 
@@ -161,16 +153,5 @@
     font-size: 18px;
     line-height: 118%;
     letter-spacing: 0.54px;
-  }
-  .header-container::after {
-    width: 768px;
-    top: 87px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header-container::after {
-    width: 1280px;
-    top: 89px;
   }
 }
