@@ -2,19 +2,10 @@
 {display: flex;
   
     background-color: var(--dark-blue);
-    
+    border-bottom: 1px solid rgba(246, 245, 239, 0.20);
     /* outline: 1px solid tomato; */
 }
-.header-container::after {
-    content: "";
-   display: block;
-width: 375px;
-height: 1px;  
-background-color: rgba(246, 245, 239, 0.20); 
-position: absolute;
-top: 75px;
 
-}
       
 
 .header-logo
@@ -22,7 +13,7 @@ top: 75px;
     align-items: center;
 gap: 8px;
 
-padding: 28px 0;
+padding: 24px 0;
 color: var(--light);
 
 font-size: 14px;
@@ -62,8 +53,7 @@ padding: 35px 0;
 
 /* ---------------- Mobile Menu ---------------- */
 .header-burger-btn {
-    height: 24px;
-    width: 24px;
+  
     margin-left: auto;
     
     padding: 24px 0;
@@ -94,11 +84,11 @@ padding: 35px 0;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 
-  background-image: linear-gradient(to left bottom, 
+  background-image: linear-gradient( 
   rgba(3, 3, 37, 0.5),
   
-  rgba(86, 110, 119, 0.15),
-  rgba(142, 148, 156, 0.15));
+  rgba(35, 56, 65, 0.15),
+  rgba(125, 131, 139, 0.15));
   }
   
   .menu-container.is-open {
@@ -109,35 +99,28 @@ padding: 35px 0;
   {display: flex;
   align-items: center;
   width: 375px;
+  border-bottom: 1px solid rgba(246, 245, 239, 0.20);
+  margin-bottom: 140px;
  
 }
-.header-mobile-menu
-{   width: 24px;
-  height: 24px; }
+.mobile-list-container
+{margin: 0 auto;
+  max-width: 140px;
+}
 
-  .mobile-menu-container::after
-  {    content: "";
-    display: block;
- width: 335px;
- height: 1px;  
- background-color: rgba(246, 245, 239, 0.20); 
- position: absolute;
- top: 75px;
- }
-
-  .mobile-close-btn {
- width: 40px;
- height: 40px;
+    .mobile-close-btn {
+ padding-right: 20px;
   background-color: transparent;
 border: none;
 margin-left: auto;
+
   
     color: var(--light);
   }
-   
+ 
   
   .mobile-menu {
-    padding: 200px 160px;
+
     
     list-style: none;
   }
@@ -166,13 +149,6 @@ text-transform: uppercase;
     font-size: 18px;
     line-height: 118%; 
     letter-spacing: 0.54px;}
-    .header-container::after
-  {width: 704px;
-  top: 87px;} }
+     }
 
-  @media screen and (min-width: 1280px) 
-  {  .header-container::after
-    {width: 1216px;
-    top: 89px;} 
-
-  }
+  
