@@ -1,22 +1,7 @@
-.header-container
-{display: flex;
-  
-    background-color: var(--dark-blue);
-    border-bottom: 1px solid rgba(246, 245, 239, 0.20);
-    /* outline: 1px solid tomato; */
-
-
+.header-wrap {
+  display: flex;
   background-color: var(--dark-blue);
-  max-width: 375px;
-}
-.header-container::after {
-  content: '';
-  display: block;
-  width: 375px;
-  height: 1px;
-  background-color: rgba(246, 245, 239, 0.2);
-  position: absolute;
-  top: 75px;
+  border-bottom: 1px solid rgba(246, 245, 239, 0.2);
 }
 
 .header-logo {
