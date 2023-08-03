@@ -1,1 +1,0 @@
-window.onscroll=()=>{o()};function o(){document.body.scrollTop>20||document.documentElement.scrollTop>20?document.getElementById("back-to-up").classList.remove("d-none"):document.getElementById("back-to-up").classList.add("d-none")}
