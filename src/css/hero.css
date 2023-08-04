@@ -319,12 +319,12 @@
 
 .hero-two {
   position: absolute;
-    z-index: 3;
-    left: 41px;
-    position: relative;
+  z-index: 3;
+  left: 41px;
+  position: relative;
 }
 
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 768px) {
   .hero-two {
     left: 45px;
   }
@@ -336,7 +336,7 @@
     left: 41px;
 }
 
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 768px) {
   .hero-three {
     left: 45px;
   }
