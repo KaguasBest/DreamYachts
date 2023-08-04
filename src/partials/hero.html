@@ -2,7 +2,7 @@
   <div class="container hero-container">
     <div class="hero-right">
       <h1 class="section-title hero-title">
-        Explore the High Seas with<span class="text-accent">
+        Explore the High Seas with<span class="text-accent hero-accent">
           Our Luxury Yacht </span
         >Rentals
       </h1>
@@ -22,9 +22,26 @@
     </div>
     <div class="hero-left">
       <div class="hero-grad"></div>
+      <picture class="hero-rectangle">
+        <source
+          srcset="./img/hero/rectangle.png 1x, ./img/hero/rectangle@2x.png 2x"
+          media="(max-width:1280px)"
+          type="image/png"
+        />
+        <source
+          srcset="./img/hero/rectangle.webp 1x, ./img/hero/rectangle@2x.webp 2x"
+          media="(max-width:1280px)"
+          type="image/webp"
+        />
+        <img
+          class="hero-rectangle"
+          src="./img/hero/rectangle.png"
+          alt="Light background"
+        />
+      </picture>
       <div class="hero-blok-clients">
         <ul class="hero-clients">
-          <li class="hero-client-person">
+          <li class="hero-client-person hero-one">
             <picture class="hero-client-img">
               <source
                 srcset="
@@ -65,7 +82,7 @@
               />
             </picture>
           </li>
-          <li class="hero-client-person">
+          <li class="hero-client-person hero-three">
             <picture class="hero-client-img">
               <source
                 srcset="
@@ -106,7 +123,7 @@
               />
             </picture>
           </li>
-          <li class="hero-client-person">
+          <li class="hero-client-person hero-two">
             <picture class="hero-client-img">
               <source
                 srcset="
@@ -150,72 +167,82 @@
         </ul>
         <p class="hero-client-text">Our Clients</p>
       </div>
-
-      <picture class="hero-yaht-img">
-        <source
-          srcset="
-            ./img/hero/yaht-mobile.png    1x,
-            ./img/hero/yaht-mobile@2x.png 2x
-          "
-          media="(max-width:767px)"
-          type="image/png"
-        />
-        <source
-          srcset="
-            ./img/hero/yaht-mobile.webp    1x,
-            ./img/hero/yaht-mobile@2x.webp 2x
-          "
-          media="(max-width:767px)"
-          type="image/webp"
-        />
-        <source
-          srcset="./img/hero/yaht.png 1x, ./img/hero/yaht@2x.png 2x"
-          media="(min-width:768px)"
-          type="image/png"
-        />
-        <source
-          srcset="./img/hero/yaht.webp 1x, ./img/hero/yaht@2x.webp 2x"
-          media="(min-width:768px)"
-          type="image/webp"
-        />
-        <img class="hero-yaht-img" src="./img/hero/yaht.png" alt="Photo yaht" />
-      </picture>
+      <div class="hero-yaht-container">
+        <picture class="hero-yaht-img">
+          <source
+            srcset="
+              ./img/hero/yaht-mobile.png    1x,
+              ./img/hero/yaht-mobile@2x.png 2x
+            "
+            media="(max-width:767px)"
+            type="image/png"
+          />
+          <source
+            srcset="
+              ./img/hero/yaht-mobile.webp    1x,
+              ./img/hero/yaht-mobile@2x.webp 2x
+            "
+            media="(max-width:767px)"
+            type="image/webp"
+          />
+          <source
+            srcset="./img/hero/yaht.png 1x, ./img/hero/yaht@2x.png 2x"
+            media="(min-width:768px)"
+            type="image/png"
+          />
+          <source
+            srcset="./img/hero/yaht.webp 1x, ./img/hero/yaht@2x.webp 2x"
+            media="(min-width:768px)"
+            type="image/webp"
+          />
+          <img
+            class="hero-yaht-img"
+            src="./img/hero/yaht.png"
+            alt="Photo yaht"
+          />
+        </picture>
+      </div>
       <div class="hero-price">
         <p class="hero-cost">$12M</p>
         <p class="hero-cost-description">
           Book now and make your dream yacht rental a reality
         </p>
       </div>
-      <picture class="hero-owner-img">
-        <source
-          srcset="./img/hero/ceo-mobile.png 1x, ./img/hero/ceo-mobile@2x.png 2x"
-          media="(max-width:767px)"
-          type="image/png"
-        />
-        <source
-          srcset="
-            ./img/hero/ceo-mobile.webp    1x,
-            ./img/hero/ceo-mobile@2x.webp 2x
-          "
-          media="(max-width:767px)"
-          type="image/webp"
-        />
-        <source
-          srcset="./img/hero/ceo.png 1x, ./img/hero/ceo@2x.png 2x"
-          media="(min-width:768px)"
-          type="image/png"
-        />
-        <source
-          srcset="./img/hero/ceo.webp 1x, ./img/hero/ceo@2x.webp 2x"
-          media="(min-width:768px)"
-          type="image/webp"
-        />
-        <img
-          class="hero-owner-img"
-          src="./img/hero/ceo.png"
-          alt="Photo owner"
-        />
-      </picture>
+      <div class="hero-owner-container">
+        <picture class="hero-owner-img">
+          <source
+            srcset="
+              ./img/hero/ceo-mobile.png    1x,
+              ./img/hero/ceo-mobile@2x.png 2x
+            "
+            media="(max-width:767px)"
+            type="image/png"
+          />
+          <source
+            srcset="
+              ./img/hero/ceo-mobile.webp    1x,
+              ./img/hero/ceo-mobile@2x.webp 2x
+            "
+            media="(max-width:767px)"
+            type="image/webp"
+          />
+          <source
+            srcset="./img/hero/ceo.png 1x, ./img/hero/ceo@2x.png 2x"
+            media="(min-width:768px)"
+            type="image/png"
+          />
+          <source
+            srcset="./img/hero/ceo.webp 1x, ./img/hero/ceo@2x.webp 2x"
+            media="(min-width:768px)"
+            type="image/webp"
+          />
+          <img
+            class="hero-owner-img"
+            src="./img/hero/ceo.png"
+            alt="Photo owner"
+          />
+        </picture>
+      </div>
     </div>
   </div>
 </section>
