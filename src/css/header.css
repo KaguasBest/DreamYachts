@@ -100,6 +100,7 @@
 .mobile-menu-container {
   display: flex;
   align-items: center;
+  margin: 0 auto;
   justify-content: space-between;
   width: 375px;
   border-bottom: 1px solid rgba(246, 245, 239, 0.2);

@@ -85,11 +85,13 @@
 
 .reviews-swiper-wrapper {
   justify-content: center;
+  gap: 16px;
 }
 
 @media only screen and (min-width: 768px) {
   .reviews-swiper-wrapper {
     justify-content: flex-start;
+    gap: 32px;
   }
 }
 .reviews-item {
@@ -189,6 +191,10 @@
   border: none;
 }
 .reviews-btn-scroll {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
   display: block;
   width: 44px;
   height: 44px;

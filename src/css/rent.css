@@ -1,20 +1,28 @@
-.rent-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.section-rent {
   padding-top: 80px;
 }
 
 @media only screen and (min-width: 768px) {
-  .rent-container {
-    flex-direction: row;
+  .section-rent {
     padding-top: 100px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .rent-container {
+  .section-rent {
     padding-top: 164px;
+  }
+}
+
+.rent-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .rent-container {
+    flex-direction: row;
   }
 }
 
@@ -331,6 +339,13 @@
 
 .rent-client-img img {
   width: 100%;
+  padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .rent-client-img img {
+    padding-bottom: 0;
+  }
 }
 .rent-img {
   margin: 0 auto;
