@@ -1,6 +1,3 @@
-.introduce img {
-  margin-bottom: 1.5rem;
-}
 .introduce-div {
   align-items: center;
   min-width: 320px;
@@ -111,11 +108,13 @@
     gap: 0;
   }
 }
-
+.introduce-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 @media only screen and (min-width: 768px) {
   .introduce-img-list {
-    display: flex;
-    flex-direction: column;
     gap: 32px;
   }
 }
