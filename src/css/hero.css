@@ -303,7 +303,7 @@
 }
 
 .hero-client-person {
-  margin-right: -7px;;
+  margin-right: -7px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -320,23 +320,23 @@
 
 .hero-one {
   position: relative;
-    z-index: 1;
+  z-index: 1;
 }
 
 .hero-two {
   position: absolute;
-    z-index: 3;
-    left: 37px;
-    position: relative;
+  z-index: 3;
+  left: 37px;
+  position: relative;
 }
 
 .hero-three {
   position: absolute;
-    z-index: 2;
-    left: 41px;
+  z-index: 2;
+  left: 41px;
 }
 
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 768px) {
   .hero-three {
     left: 45px;
   }
@@ -388,7 +388,7 @@
 @media only screen and (min-width: 768px) {
   .hero-price {
     bottom: 64px;
-    left:32px;
+    left: 32px;
   }
 }
 

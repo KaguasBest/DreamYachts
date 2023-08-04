@@ -74,6 +74,7 @@
   }
   .fishing-item {
     margin-left: 336px;
+    width: 400px;
   }
 
   .sunbathing-item {
@@ -108,6 +109,7 @@
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 64px;
+    width: 440px;
   }
   .sunbathing-item {
     margin-left: 372px;

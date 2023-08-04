@@ -1,5 +1,5 @@
 .yacht {
-  padding-top: 161px;
+  padding-top: 146px;
   position: relative;
 }
 
@@ -13,8 +13,8 @@
     padding-top: 494px;
   }
 
-  .yacht-section::before {
-    content: "";
+  /* .yacht-section::before {
+    content: '';
     position: absolute;
     width: 1508.573px;
     height: 1611.22px;
@@ -22,30 +22,29 @@
     background: url(./img/icons.svg#icon-looper-group-yacht) 0 0 no-repeat;
     transform: rotate(30deg);
     overflow: hidden;
-  }
+  } */
 }
 
 .yacht-wrap-title {
   width: 311px;
   margin: 0 auto;
   position: absolute;
-  top: -165px;
+  top: -146px;
+  left: 20px;
 }
 
 @media only screen and (min-width: 768px) {
   .yacht-wrap-title {
     width: 641px;
-    top: -130px;
     left: 64px;
+    top: -100px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .yacht-wrap-title {
     width: 882px;
-
-    top: -160px;
-    left: 225px;
+    left: 199px;
   }
 }
 
@@ -53,13 +52,14 @@
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: -1.62px;
-  margin-bottom: 40px;
+  margin-bottom: 56px;
 }
 
 @media only screen and (min-width: 768px) {
   .yacht-title {
     font-size: 70px;
     letter-spacing: -3.15px;
+    margin-bottom: 78px;
   }
 }
 
@@ -111,6 +111,12 @@
 
 .swiper-wrapper {
   justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper-wrapper {
+    justify-content: space-between;
+  }
 }
 
 .yaht-slider-item {

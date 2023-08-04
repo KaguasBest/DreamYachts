@@ -2,25 +2,30 @@
   margin-bottom: 1.5rem;
 }
 .introduce-div {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 1.25rem;
   min-width: 320px;
   margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
   .introduce-div {
-    padding: 2rem;
     width: 768px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .introduce-div {
-    flex-direction: row;
-    align-items: first baseline;
     width: 1280px;
     flex-wrap: wrap;
+  }
+}
+
+.introduce-wrap-text {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1280px) {
+  .introduce-wrap-text {
+    flex-direction: row;
   }
 }
 .introduce-text-adventure {
@@ -28,25 +33,24 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -1.08px;
-  margin-bottom: 2.5rem;
-  max-width: 21rem;
+  width: 335px;
 }
 @media only screen and (min-width: 768px) {
   .introduce-text-adventure {
-    max-width: 25.9rem;
+    width: 514px;
     font-size: 2rem;
     letter-spacing: -1.44px;
   }
 }
 
 .introduce-div-adventure {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .introduce-div-adventure {
     display: flex;
-    margin: 0 auto 2rem 0;
+    gap: 32px;
   }
 }
 .introduce-yacht-span {
@@ -60,29 +64,31 @@
   -webkit-text-fill-color: transparent;
 }
 .introduce-two-texts {
-  display: inline-flex;
   gap: 0.88rem;
   margin-bottom: 2.5rem;
 }
 @media only screen and (min-width: 768px) {
   .introduce-two-texts {
-    display: flex;
     margin-right: 2rem;
     margin-left: auto;
-    gap: 2rem;
     margin-bottom: 4rem;
     max-width: 25rem;
   }
+}
+
+.introduce-list {
+  display: flex;
+  gap: 14px;
 }
 .introduce-text-text {
   font-size: 0.88rem;
   line-height: 1.4;
   letter-spacing: -0.28px;
-  max-width: 45%;
+  width: 160px;
 }
 @media only screen and (min-width: 768px) {
   .introduce-text-text {
-    max-width: 9.69rem;
+    width: 183px;
     font-size: 1rem;
     letter-spacing: -0.32px;
   }
@@ -106,16 +112,22 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .introduce-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
 @media only screen and (min-width: 1280px) {
   .introduce-yacht-1 {
-    display: flex;
     margin: 0 auto;
     margin-bottom: -1rem;
   }
 }
 @media only screen and (min-width: 768px) {
   .introduce-yacht-2 {
-    display: flex;
     margin-right: auto;
   }
 }
@@ -126,7 +138,6 @@
   }
 }
 .introduce-yacht-3 {
-  display: flex;
   justify-content: flex-end;
 }
 @media only screen and (min-width: 768px) {
