@@ -10,8 +10,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/DreamYachts/assets/index-c5c2a035.js"></script>
-    <link rel="stylesheet" href="/DreamYachts/assets/index-62207767.css">
+    <script type="module" crossorigin src="/DreamYachts/assets/index-050b68eb.js"></script>
+    <link rel="stylesheet" href="/DreamYachts/assets/index-c4747b69.css">
   </head>
 
   <body>
@@ -100,7 +100,7 @@
   <div class="container hero-container">
     <div class="hero-right">
       <h1 class="section-title hero-title">
-        Explore the High Seas with<span class="text-accent">
+        Explore the High Seas with<span class="text-accent hero-accent">
           Our Luxury Yacht </span
         >Rentals
       </h1>
@@ -120,9 +120,26 @@
     </div>
     <div class="hero-left">
       <div class="hero-grad"></div>
+      <picture class="hero-rectangle">
+        <source
+          srcset="/DreamYachts/assets/rectangle-25c31e52.png 1x, /DreamYachts/assets/rectangle@2x-a5da7b18.png 2x"
+          media="(max-width:1280px)"
+          type="image/png"
+        />
+        <source
+          srcset="/DreamYachts/assets/rectangle-23e9bb48.webp 1x, /DreamYachts/assets/rectangle@2x-3ec956ed.webp 2x"
+          media="(max-width:1280px)"
+          type="image/webp"
+        />
+        <img
+          class="hero-rectangle"
+          src="/DreamYachts/assets/rectangle-25c31e52.png"
+          alt="Light background"
+        />
+      </picture>
       <div class="hero-blok-clients">
         <ul class="hero-clients">
-          <li class="hero-client-person">
+          <li class="hero-client-person hero-one">
             <picture class="hero-client-img">
               <source
                 srcset="/DreamYachts/assets/client-1-mobile-097f008c.png 1x, /DreamYachts/assets/client-1-mobile@2x-0a89c973.png 2x"
@@ -151,7 +168,7 @@
               />
             </picture>
           </li>
-          <li class="hero-client-person">
+          <li class="hero-client-person hero-three">
             <picture class="hero-client-img">
               <source
                 srcset="/DreamYachts/assets/client-2-mobile-5bd4c7c5.png 1x, /DreamYachts/assets/client-2-mobile@2x-9133d704.png 2x"
@@ -180,7 +197,7 @@
               />
             </picture>
           </li>
-          <li class="hero-client-person">
+          <li class="hero-client-person hero-two">
             <picture class="hero-client-img">
               <source
                 srcset="data:image/png;base64,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 1x, /DreamYachts/assets/client-3-mobile@2x-3ec8a35c.png 2x"
@@ -212,63 +229,70 @@
         </ul>
         <p class="hero-client-text">Our Clients</p>
       </div>
-
-      <picture class="hero-yaht-img">
-        <source
-          srcset="/DreamYachts/assets/yaht-mobile-b986c6d1.png 1x, /DreamYachts/assets/yaht-mobile@2x-2ec4598c.png 2x"
-          media="(max-width:767px)"
-          type="image/png"
-        />
-        <source
-          srcset="/DreamYachts/assets/yaht-mobile-616bb5b1.webp 1x, /DreamYachts/assets/yaht-mobile@2x-ecb76d91.webp 2x"
-          media="(max-width:767px)"
-          type="image/webp"
-        />
-        <source
-          srcset="/DreamYachts/assets/yaht-6b6edbdd.png 1x, /DreamYachts/assets/yaht@2x-52de2055.png 2x"
-          media="(min-width:768px)"
-          type="image/png"
-        />
-        <source
-          srcset="/DreamYachts/assets/yaht-5e024358.webp 1x, /DreamYachts/assets/yaht@2x-e0ea0a0d.webp 2x"
-          media="(min-width:768px)"
-          type="image/webp"
-        />
-        <img class="hero-yaht-img" src="/DreamYachts/assets/yaht-6b6edbdd.png" alt="Photo yaht" />
-      </picture>
+      <div class="hero-yaht-container">
+        <picture class="hero-yaht-img">
+          <source
+            srcset="/DreamYachts/assets/yaht-mobile-b986c6d1.png 1x, /DreamYachts/assets/yaht-mobile@2x-2ec4598c.png 2x"
+            media="(max-width:767px)"
+            type="image/png"
+          />
+          <source
+            srcset="/DreamYachts/assets/yaht-mobile-616bb5b1.webp 1x, /DreamYachts/assets/yaht-mobile@2x-ecb76d91.webp 2x"
+            media="(max-width:767px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/DreamYachts/assets/yaht-6b6edbdd.png 1x, /DreamYachts/assets/yaht@2x-52de2055.png 2x"
+            media="(min-width:768px)"
+            type="image/png"
+          />
+          <source
+            srcset="/DreamYachts/assets/yaht-5e024358.webp 1x, /DreamYachts/assets/yaht@2x-e0ea0a0d.webp 2x"
+            media="(min-width:768px)"
+            type="image/webp"
+          />
+          <img
+            class="hero-yaht-img"
+            src="/DreamYachts/assets/yaht-6b6edbdd.png"
+            alt="Photo yaht"
+          />
+        </picture>
+      </div>
       <div class="hero-price">
         <p class="hero-cost">$12M</p>
         <p class="hero-cost-description">
           Book now and make your dream yacht rental a reality
         </p>
       </div>
-      <picture class="hero-owner-img">
-        <source
-          srcset="/DreamYachts/assets/ceo-mobile-2beb0f96.png 1x, /DreamYachts/assets/ceo-mobile@2x-ae064678.png 2x"
-          media="(max-width:767px)"
-          type="image/png"
-        />
-        <source
-          srcset="data:image/webp;base64,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 1x, /DreamYachts/assets/ceo-mobile@2x-e1bbb203.webp 2x"
-          media="(max-width:767px)"
-          type="image/webp"
-        />
-        <source
-          srcset="/DreamYachts/assets/ceo-180e2414.png 1x, /DreamYachts/assets/ceo@2x-8f29862b.png 2x"
-          media="(min-width:768px)"
-          type="image/png"
-        />
-        <source
-          srcset="/DreamYachts/assets/ceo-88c409fb.webp 1x, /DreamYachts/assets/ceo@2x-c4d9e04b.webp 2x"
-          media="(min-width:768px)"
-          type="image/webp"
-        />
-        <img
-          class="hero-owner-img"
-          src="/DreamYachts/assets/ceo-180e2414.png"
-          alt="Photo owner"
-        />
-      </picture>
+      <div class="hero-owner-container">
+        <picture class="hero-owner-img">
+          <source
+            srcset="/DreamYachts/assets/ceo-mobile-2beb0f96.png 1x, /DreamYachts/assets/ceo-mobile@2x-ae064678.png 2x"
+            media="(max-width:767px)"
+            type="image/png"
+          />
+          <source
+            srcset="data:image/webp;base64,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 1x, /DreamYachts/assets/ceo-mobile@2x-e1bbb203.webp 2x"
+            media="(max-width:767px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/DreamYachts/assets/ceo-180e2414.png 1x, /DreamYachts/assets/ceo@2x-8f29862b.png 2x"
+            media="(min-width:768px)"
+            type="image/png"
+          />
+          <source
+            srcset="/DreamYachts/assets/ceo-88c409fb.webp 1x, /DreamYachts/assets/ceo@2x-c4d9e04b.webp 2x"
+            media="(min-width:768px)"
+            type="image/webp"
+          />
+          <img
+            class="hero-owner-img"
+            src="/DreamYachts/assets/ceo-180e2414.png"
+            alt="Photo owner"
+          />
+        </picture>
+      </div>
     </div>
   </div>
 </section>
