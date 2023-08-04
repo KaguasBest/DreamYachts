@@ -203,7 +203,7 @@
 }
 
 .hero-left::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 279px;
   height: 279px;
@@ -224,7 +224,6 @@
     left: -424px;
   }
 }
-
 
 @media only screen and (min-width: 1280px) {
   .hero-left::after {
