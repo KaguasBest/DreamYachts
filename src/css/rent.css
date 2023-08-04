@@ -303,7 +303,6 @@
   z-index: 2;
   position: fixed;
   top: 0;
-
 }
 
 .container-rent-modal {
@@ -330,6 +329,9 @@
   pointer-events: none;
 }
 
+.rent-client-img img {
+  width: 100%;
+}
 .rent-img {
   margin: 0 auto;
 }

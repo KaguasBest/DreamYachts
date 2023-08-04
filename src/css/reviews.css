@@ -30,7 +30,6 @@
   .reviews-titel {
     max-width: 500px;
     font-size: 32px;
-    margin-right: auto;
   }
 }
 @media only screen and (max-width: 1279px) {

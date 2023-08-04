@@ -2,24 +2,45 @@
   <div class="container rent-container">
     <div class="rent-container-title">
       <h2 class="rent-title">Rent a yacht now</h2>
-      <picture class="hero-client-img">
-        <source srcset="
+      <picture class="rent-client-img">
+        <source
+          srcset="
             ./img/rent/yacht-mobile.png    1x,
             ./img/rent/yacht-mobile@2x.png 2x
-          " media="(max-width:767px)" type="image/png" />
-        <source srcset="
+          "
+          media="(max-width:767px)"
+          type="image/png"
+        />
+        <source
+          srcset="
             ./img/rent/yacht-mobile.webp    1x,
             ./img/rent/yacht-mobile@2x.webp 2x
-          " media="(max-width:767px)" type="image/webp" />
-        <source srcset="
+          "
+          media="(max-width:767px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
             ./img/rent/yacht-desktop.png    1x,
             ./img/rent/yacht-desktop@2x.png 2x
-          " media="(min-width:768px)" type="image/png" />
-        <source srcset="
+          "
+          media="(min-width:768px)"
+          type="image/png"
+        />
+        <source
+          srcset="
             ./img/rent/yacht-desktop.webp    1x,
             ./img/rent/yacht-desktop@2x.webp 2x
-          " media="(min-width:768px)" type="image/webp" />
-        <img src="./img/rent/yacht-mobile.png" alt="yacht" width="260" height="187" />
+          "
+          media="(min-width:768px)"
+          type="image/webp"
+        />
+        <img
+          src="./img/rent/yacht-mobile.png"
+          alt="yacht"
+          width="260"
+          height="187"
+        />
       </picture>
     </div>
     <!-- form -->
@@ -27,18 +48,39 @@
       <form class="rent-form">
         <label class="rent-label-user" for="user-name">Full Name</label>
 
-        <input class="rent-user-name input-user" type="text" name="user-name" id="user-name" />
+        <input
+          class="rent-user-name input-user"
+          type="text"
+          name="user-name"
+          id="user-name"
+        />
 
         <label class="rent-label-user" for="user-mail">Email</label>
-        <input class="rent-user-mail input-user" type="email" name="user-mail" id="user-mail"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+        <input
+          class="rent-user-mail input-user"
+          type="email"
+          name="user-mail"
+          id="user-mail"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        />
 
         <label class="rent-label-user" for="user-tel">Phone number</label>
-        <input class="rent-user-tel input-user" type="tel" name="user-tel" id="user-tel" pattern="^([0-9]){10}$"
-          title="0985624518" />
+        <input
+          class="rent-user-tel input-user"
+          type="tel"
+          name="user-tel"
+          id="user-tel"
+          pattern="^([0-9]){10}$"
+          title="0985624518"
+        />
 
         <label class="rent-label-user" for="user-comment">Comment</label>
-        <textarea class="form-coment-text input-user" name="user-comment" id="user-comment" rows="2"></textarea>
+        <textarea
+          class="form-coment-text input-user"
+          name="user-comment"
+          id="user-comment"
+          rows="2"
+        ></textarea>
         <div class="rent-form-elips"></div>
 
         <button class="rent-btn" type="submit" data-modal-open>
@@ -62,23 +104,36 @@
     </button>
 
     <picture>
-      <source srcset="
+      <source
+        srcset="
           ./img/rent/yacht-pop-up-mobile.png    1x,
           ./img/rent/yacht-pop-up-mobile@2x.png 2x
-        " media="(max-width: 767px)" />
+        "
+        media="(max-width: 767px)"
+      />
 
-      <source srcset="
+      <source
+        srcset="
           ./img/rent/yacht-pop-up-tablet.png    1x,
           ./img/rent/yacht-pop-up-tablet@2x.png 2x
-        " media="(min-width: 768px)" />
+        "
+        media="(min-width: 768px)"
+      />
 
-      <source srcset="
+      <source
+        srcset="
           ./img/rent/yacht-pop-up-desktop.png    1x,
           ./img/rent/yacht-pop-up-desktop@2x.png 2x
-        " media="(min-width: 1280px)" />
+        "
+        media="(min-width: 1280px)"
+      />
 
-      <img class="rent-img" src="./img/rent/yacht-pop-up-desktop.png" srcset="./img/rent/yacht-pop-up-desktop@2x.png"
-        alt="yacht" />
+      <img
+        class="rent-img"
+        src="./img/rent/yacht-pop-up-desktop.png"
+        srcset="./img/rent/yacht-pop-up-desktop@2x.png"
+        alt="yacht"
+      />
     </picture>
     <div class="rent-modal-elips"></div>
 
