@@ -334,13 +334,15 @@
 }
 
 .hero-three {
-  position: absolute;
+    position: absolute;
     z-index: 2;
     left: 41px;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-three {
+    position: absolute;
+    z-index: 2;
     left: 45px;
   }
 }
