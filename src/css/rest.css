@@ -17,7 +17,7 @@
 .rest-item {
   margin-bottom: 24px;
   box-sizing: border-box;
-  margin-right: auto;
+  /* margin-right: auto; */
   margin-left: auto;
   position: relative;
   transition: transform var(--anim);
@@ -69,11 +69,11 @@
     width: 100%;
   }
 
-  .rest-item {
+  /* .rest-item {
     margin-bottom: 32px;
-  }
+  } */
   .fishing-item {
-    margin-left: 336px;
+    /* margin-left: 336px; */
     width: 400px;
   }
 
